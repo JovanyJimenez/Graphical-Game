@@ -219,6 +219,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/d532129e8fa397d11dfd750a092df1945d5ddd921ea7a1a2259b571b2a91a48f_Male Character 5_Walking Up_3.png",
           "name": "Male Character 5_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bananas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bananas.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Item Pack/Food/81c28b1f2d24cbe0c3e4b50cff823c129455d2617934838fe04d562593d05c63_Bananas.png",
+          "name": "Bananas.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -252,7 +265,23 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Bananas",
+          "persistentUuid": "1827813d-297a-4ac0-91fa-3b8ba5012728",
+          "width": 0,
+          "x": 984,
+          "y": 270,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
       "objects": [
         {
           "assetStoreId": "f979443c9f4c0dcc2e3cacea0196c02a0a91d1fde9412f5375f54a5af1691bac",
@@ -736,6 +765,66 @@
                           {
                             "x": 2,
                             "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "ce2d2e856edd8ae80544b8ae3445c1208d432f88dc17aef0c5fdbfe62f41d539",
+          "name": "Bananas",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bananas.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
                           }
                         ]
                       ]
