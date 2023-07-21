@@ -238,7 +238,7 @@
         "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
-        "name": "NewSprite",
+        "name": "OldProtagonistSprite",
         "smoothed": false,
         "userAdded": false
       },
@@ -247,7 +247,7 @@
         "file": "assets/protag-down1.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down.png\"}",
-        "name": "down",
+        "name": "PDown1",
         "smoothed": false,
         "userAdded": false
       },
@@ -256,7 +256,7 @@
         "file": "assets/protag-down2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down2.png\"}",
-        "name": "down2",
+        "name": "PDown2",
         "smoothed": false,
         "userAdded": false
       },
@@ -265,7 +265,7 @@
         "file": "assets/protag-down3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down3.png\"}",
-        "name": "down3",
+        "name": "PDown3",
         "smoothed": false,
         "userAdded": false
       },
@@ -274,7 +274,7 @@
         "file": "assets/protag-up1.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up1",
+        "name": "PUp1",
         "smoothed": false,
         "userAdded": true
       },
@@ -283,7 +283,7 @@
         "file": "assets/protag-up2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "up2",
+        "name": "PUp2",
         "smoothed": false,
         "userAdded": true
       },
@@ -292,7 +292,7 @@
         "file": "assets/protag-right1.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "right1",
+        "name": "PRight1",
         "smoothed": false,
         "userAdded": true
       },
@@ -301,7 +301,7 @@
         "file": "assets/protag-right2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "right2",
+        "name": "PRight2",
         "smoothed": false,
         "userAdded": true
       },
@@ -310,7 +310,7 @@
         "file": "assets/protag-left2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/left.png\"}",
-        "name": "left2",
+        "name": "PLeft2",
         "smoothed": false,
         "userAdded": false
       },
@@ -319,7 +319,7 @@
         "file": "assets/protag-left1.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"right-1.png.png\",\"extension\":\".png\"}",
-        "name": "left1",
+        "name": "PLeft1",
         "smoothed": false,
         "userAdded": false
       },
@@ -328,7 +328,7 @@
         "file": "assets/New image2.png",
         "kind": "image",
         "metadata": "",
-        "name": "New image2.png",
+        "name": "GrassPlain",
         "smoothed": false,
         "userAdded": false
       },
@@ -347,46 +347,46 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle.png",
+        "file": "assets/TSIdle1.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "idle",
+        "name": "TSIdle1",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle2.png",
+        "file": "assets/TSIdle2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/idle2.png\"}",
-        "name": "idle2",
+        "name": "TSIdle2",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle3.png",
+        "file": "assets/TSIdle3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/idle3.png\"}",
-        "name": "idle3",
+        "name": "TSIdle3",
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle4.png",
+        "file": "assets/TSIdle4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/idle4.png\"}",
-        "name": "idle4",
+        "name": "TSIdle4",
         "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/idle5.png",
+        "file": "assets/TSIdle5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/idle5.png\"}",
-        "name": "idle5",
+        "name": "TSIdle5",
         "smoothed": false,
         "userAdded": false
       },
@@ -446,6 +446,87 @@
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/YPLeft11.png\"}",
         "name": "YPLeft4",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PIdle1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PIdle1",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PIdle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PIdle2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PIdle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PIdle3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PIdle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PIdle4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PIdle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PIdle5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CurvedSlash.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CurvedSlash",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slash1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite3.png\"}",
+        "name": "Slash1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Slash2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Slash2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite2.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -545,14 +626,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 280,
           "layer": "",
           "name": "ShadyGuy",
           "persistentUuid": "3a9349ee-80a7-43c8-8091-684376bb4ddb",
-          "width": 0,
-          "x": 480,
-          "y": 574,
+          "width": 323,
+          "x": 20,
+          "y": 89,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1143,13 +1225,81 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewSprite",
+                      "image": "PIdle1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1179,7 +1329,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "down",
+                      "image": "PDown1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1196,7 +1346,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "down2",
+                      "image": "PDown2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1213,7 +1363,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "down3",
+                      "image": "PDown3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1243,7 +1393,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "up1",
+                      "image": "PUp1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1260,7 +1410,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "up2",
+                      "image": "PUp2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1290,7 +1440,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "right1",
+                      "image": "PRight1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1307,7 +1457,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "right2",
+                      "image": "PRight2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1337,7 +1487,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "left1",
+                      "image": "PLeft1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1354,7 +1504,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "left2",
+                      "image": "PLeft2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1380,7 +1530,7 @@
           "height": 32,
           "name": "FloweryPlain",
           "tags": "",
-          "texture": "New image2.png",
+          "texture": "GrassPlain",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -1468,7 +1618,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "idle2",
+                      "image": "TSIdle2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1485,7 +1635,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "idle3",
+                      "image": "TSIdle3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1502,7 +1652,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "idle4",
+                      "image": "TSIdle4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1519,7 +1669,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "idle5",
+                      "image": "TSIdle5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1551,7 +1701,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "YPLeft1",
+              "name": "YPLeft",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1628,6 +1778,39 @@
                       "customCollisionMask": []
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "name": "YPRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "YPDown",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "YPUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
                 }
               ]
             }
@@ -1716,6 +1899,150 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "SGForward",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Slash",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Curved Slash",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CurvedSlash",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Slash1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slash1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Slash2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Slash2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "KidCompanion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
