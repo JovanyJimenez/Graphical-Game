@@ -586,6 +586,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 266,
+          "layer": "",
+          "name": "Protagonist",
+          "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
+          "width": 443,
+          "x": 204,
+          "y": 106,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
