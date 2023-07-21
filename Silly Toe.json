@@ -244,15 +244,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "stationary-1.png.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stationary-1.png.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/down.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/down.png\"}",
@@ -280,137 +271,11 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "stationary-1.png2.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"stationary-1.png2.png\",\"extension\":\".png\"}",
-        "name": "stationary-1.png2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "stationary-1.png3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stationary-1.png3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png7",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png8",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png9",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "stationary-1.png4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stationary-1.png4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png10",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/stationary-1.png11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png11",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "stationary-1.png5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stationary-1.png5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/stationary-1.png12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png12",
-        "smoothed": true,
+        "name": "up1",
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -418,89 +283,17 @@
         "file": "assets/stationary-1.png13.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "stationary-1.png13",
-        "smoothed": true,
+        "name": "up2",
+        "smoothed": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "stationary-1.png6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "stationary-1.png6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/right2.png\"}",
-        "name": "right2",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right4",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right5",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/right7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "right7",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
         "file": "assets/right8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "right8",
-        "smoothed": true,
+        "name": "right1",
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -508,8 +301,8 @@
         "file": "assets/right9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "right9",
-        "smoothed": true,
+        "name": "right2",
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -517,26 +310,17 @@
         "file": "right-1.png.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"right-1.png.png\",\"extension\":\".png\"}",
-        "name": "right-1.png.png",
-        "smoothed": true,
+        "name": "left1",
+        "smoothed": false,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "right-2.png.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "right-2.png.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
         "file": "assets/left.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "left",
-        "smoothed": true,
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/left.png\"}",
+        "name": "left2",
+        "smoothed": false,
         "userAdded": false
       }
     ],
@@ -1272,7 +1056,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "stationary-1.png12",
+                      "image": "up1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1289,7 +1073,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "stationary-1.png13",
+                      "image": "up2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1319,7 +1103,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "right8",
+                      "image": "right1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1336,7 +1120,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "right9",
+                      "image": "right2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1366,7 +1150,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "right-1.png.png",
+                      "image": "left1",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1383,7 +1167,7 @@
                     },
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "left",
+                      "image": "left2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
