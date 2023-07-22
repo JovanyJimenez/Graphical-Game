@@ -550,6 +550,24 @@
         "name": "New image",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/CollisionDetect.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "CollisionDetect",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Enemy_Spawn_Location.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Enemy_Spawn_Location.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -578,7 +596,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.49508400737488917,
         "windowMask": false
       },
       "objectsGroups": [
@@ -738,10 +756,42 @@
           "layer": "",
           "name": "MountainPlain",
           "persistentUuid": "12d24982-0e9a-4146-aba2-9c1d2697bdd6",
-          "width": 206,
-          "x": 335,
-          "y": 384,
+          "width": 575,
+          "x": 63,
+          "y": -75,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 33,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "1c3e41bb-c12e-4046-b4ad-daf545cbcab0",
+          "width": 165,
+          "x": 461,
+          "y": 348,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 170,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "d06d7d3f-59e1-472b-89c3-51ce664ce750",
+          "width": 131,
+          "x": 479,
+          "y": 178,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2318,6 +2368,47 @@
           "absoluteCoordinates": false,
           "clearBetweenFrames": true,
           "antialiasing": "none"
+        },
+        {
+          "assetStoreId": "",
+          "name": "CollisionDetect",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Enemy_Spawn_Location.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -2348,7 +2439,7 @@
               },
               "parameters": [
                 "",
-                "8",
+                "6",
                 "",
                 ""
               ]
@@ -2369,7 +2460,7 @@
               },
               "parameters": [
                 "",
-                "8",
+                "6",
                 "\"Transition\"",
                 ""
               ]
@@ -2394,6 +2485,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Collision\""
               ]
             }
           ]
@@ -2586,6 +2686,75 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Collision",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Characters",
+                "CollisionDetect",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Characters"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AjoutObjConcern"
+              },
+              "parameters": [
+                "",
+                "CollisionDetect"
+              ]
+            },
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "Protagonist",
+                "CollisionDetect",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2643,6 +2812,38 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Collision",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Dialogue",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
