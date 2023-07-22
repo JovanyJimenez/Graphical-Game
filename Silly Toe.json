@@ -553,15 +553,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/CollisionDetect.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "CollisionDetect",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Enemy_Spawn_Location.png",
         "kind": "image",
         "metadata": "",
@@ -785,7 +776,7 @@
           "customSize": true,
           "depth": 0,
           "height": 170,
-          "layer": "",
+          "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "d06d7d3f-59e1-472b-89c3-51ce664ce750",
           "width": 131,
