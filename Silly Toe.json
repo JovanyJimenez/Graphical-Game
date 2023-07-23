@@ -1184,30 +1184,42 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SmallRock.png",
+        "file": "assets/Wide side rectangle stone_Broken.png",
         "kind": "image",
         "metadata": "",
-        "name": "SmallRock",
-        "smoothed": false,
-        "userAdded": false
+        "name": "Wide side rectangle stone_Broken.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Stone/c2c6a36f59c256ec908948a753558fe8aa20f6da460b58d0fc822643f78c9128_Wide side rectangle stone_Broken.png",
+          "name": "Wide side rectangle stone_Broken.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/BigTree.png",
+        "file": "assets/Wide side rectangle stone_Damaged.png",
         "kind": "image",
         "metadata": "",
-        "name": "BigTree",
-        "smoothed": false,
-        "userAdded": false
+        "name": "Wide side rectangle stone_Damaged.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Stone/bd77ed948ec7e7413acf6e1a8804259fe8b3ea015c505d720c109fb8609f31c9_Wide side rectangle stone_Damaged.png",
+          "name": "Wide side rectangle stone_Damaged.png"
+        }
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/SmallTree.png",
+        "file": "assets/Wide side rectangle stone_Perfect.png",
         "kind": "image",
         "metadata": "",
-        "name": "SmallTree",
-        "smoothed": false,
-        "userAdded": false
+        "name": "Wide side rectangle stone_Perfect.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Stone/6d6321114fd6563bf18da8ea660f8817782831a63cea4b9cbf563178091810e3_Wide side rectangle stone_Perfect.png",
+          "name": "Wide side rectangle stone_Perfect.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1236,7 +1248,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3164146233547921,
+        "zoomFactor": 1.0441589602739227,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1302,9 +1314,25 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 44,
-          "y": 624,
+          "x": 136,
+          "y": 461,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 26,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "765a5efd-eac5-4ed0-b9f5-7213926fb716",
+          "width": 21,
+          "x": 193,
+          "y": 393,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1318,8 +1346,8 @@
           "name": "ShadyGuy",
           "persistentUuid": "3a9349ee-80a7-43c8-8091-684376bb4ddb",
           "width": 53,
-          "x": 681,
-          "y": 564,
+          "x": 437,
+          "y": 521,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1329,13 +1357,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1495,
+          "height": 1345,
           "layer": "",
           "name": "FloweryPlain",
           "persistentUuid": "3146b76a-06de-4d98-a7fe-e8cb1f765688",
-          "width": 2311,
-          "x": -276,
-          "y": -191,
+          "width": 1307,
+          "x": 2,
+          "y": -196,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1395,8 +1423,8 @@
           "name": "Elixir",
           "persistentUuid": "4d23f32b-ba3c-4932-8fc2-76657cd4da0b",
           "width": 0,
-          "x": 524,
-          "y": 285,
+          "x": 273,
+          "y": 501,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1426,8 +1454,8 @@
           "name": "KidCompanion",
           "persistentUuid": "50d7727c-5824-4a3a-8db0-d8bff9f2bf08",
           "width": 43,
-          "x": 112,
-          "y": 485,
+          "x": 215,
+          "y": 278,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -1452,6 +1480,22 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
+          "height": 19,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "92a23704-d68d-4a5f-b770-3eb331ec5de8",
+          "width": 12,
+          "x": 197,
+          "y": 396,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
           "height": 1564,
           "layer": "Collision",
           "name": "CollisionDetect",
@@ -1468,13 +1512,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 132,
+          "height": 104,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "865919e1-b7c7-4fd6-8aff-d378782b7c65",
-          "width": 2384,
-          "x": -390,
-          "y": 1297,
+          "width": 2380,
+          "x": -386,
+          "y": 1325,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1484,13 +1528,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 175,
+          "height": 58,
           "layer": "",
           "name": "Ocean",
           "persistentUuid": "a95ac459-2955-4173-a59a-8b4a05fbde06",
-          "width": 2396,
-          "x": -426,
-          "y": -354,
+          "width": 1843,
+          "x": -451,
+          "y": -221,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1500,13 +1544,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 198,
-          "layer": "Collision",
+          "height": 92,
+          "layer": "",
           "name": "CollisionDetect",
           "persistentUuid": "ee071c13-6adb-4c30-bf2e-678addf89596",
-          "width": 2393,
-          "x": -424,
-          "y": -387,
+          "width": 1965,
+          "x": -428,
+          "y": -278,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1520,9 +1564,9 @@
           "layer": "",
           "name": "Sand",
           "persistentUuid": "4217e888-f11d-471c-82d9-0bc2d139268c",
-          "width": 2471,
-          "x": -500,
-          "y": -188,
+          "width": 1899,
+          "x": -504,
+          "y": -165,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1536,8 +1580,8 @@
           "name": "TimeSnatcherOG",
           "persistentUuid": "2467668a-def3-4812-886b-3da72fe9a01a",
           "width": 0,
-          "x": 309,
-          "y": 294,
+          "x": 437,
+          "y": 261,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1547,44 +1591,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 185,
+          "height": 152,
           "layer": "Collision",
           "name": "EnemyDetectOG",
           "persistentUuid": "c9a5c084-4c97-43c6-ae2f-f74e5f9d13a6",
-          "width": 181,
-          "x": 284,
-          "y": 236,
+          "width": 88,
+          "x": 426,
+          "y": 250,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "f83e1d73-504f-412e-b790-0ac5bb2def5b",
-          "width": 0,
-          "x": 960,
-          "y": 478,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "92ce9ce9-9923-4447-bb2a-16da281ac6a6",
-          "width": 0,
-          "x": 1005,
-          "y": 270,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1593,13 +1607,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 24,
+          "height": 8,
           "layer": "Collision",
           "name": "CollisionDetect",
-          "persistentUuid": "5ed6b851-f1a8-44fe-b7f3-aa8764ec6588",
-          "width": 11,
-          "x": 700,
-          "y": 576,
+          "persistentUuid": "27f234dd-9cb9-4375-a0e8-e4d40fc590dd",
+          "width": 6,
+          "x": 234,
+          "y": 300,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1609,13 +1623,29 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1819,
+          "height": 10,
           "layer": "Collision",
           "name": "CollisionDetect",
-          "persistentUuid": "b16b0636-2198-4dd7-adcc-2884cceca1a8",
-          "width": 183,
-          "x": 1957,
-          "y": -385,
+          "persistentUuid": "5ed6b851-f1a8-44fe-b7f3-aa8764ec6588",
+          "width": 1,
+          "x": 463,
+          "y": 540,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 23,
+          "layer": "",
+          "name": "Interact_E",
+          "persistentUuid": "16b7f99c-aacd-40f1-b204-953f0e2d086e",
+          "width": 17,
+          "x": 229,
+          "y": 259,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -1625,30 +1655,44 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 6,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "2dc461e0-eea8-4588-b0ad-474b4088195a",
-          "width": 299,
-          "x": 0,
-          "y": 718,
-          "zOrder": 27,
+          "height": 129,
+          "layer": "Dialogue",
+          "name": "FriendlyDialogue",
+          "persistentUuid": "59b393ac-aabb-46a9-8496-37e4b2b9766a",
+          "width": 453,
+          "x": 426,
+          "y": 559,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 270,
-          "customSize": true,
-          "depth": 0,
-          "height": 4,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "151355ee-a8cb-406b-bf15-0dd3ff7d29c2",
-          "width": 159,
-          "x": 219,
-          "y": 641,
-          "zOrder": 27,
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Dialogue",
+          "name": "YesBox",
+          "persistentUuid": "b928bf85-2318-41df-a209-453629148fc4",
+          "width": 0,
+          "x": 726,
+          "y": 650,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Dialogue",
+          "name": "NoBox",
+          "persistentUuid": "046813cb-5a89-4773-89bd-6658d967b0ad",
+          "width": 0,
+          "x": 810,
+          "y": 649,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1657,30 +1701,29 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 6,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "1070b858-4dc6-48af-b470-7c99fb4406e8",
-          "width": 26,
-          "x": 0,
-          "y": 587,
-          "zOrder": 27,
+          "height": 202,
+          "layer": "Dialogue",
+          "name": "WideSideRectangleStone",
+          "persistentUuid": "ad3b7f69-7feb-45d6-8fc9-316bac4ae3d7",
+          "width": 599,
+          "x": 341,
+          "y": 517,
+          "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 270,
-          "customSize": true,
-          "depth": 0,
-          "height": 4,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "6c6f0488-2673-4efa-ba3c-dcae198e3f79",
-          "width": 211,
-          "x": -81,
-          "y": 485,
-          "zOrder": 27,
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Dialogue",
+          "name": "No",
+          "persistentUuid": "4b199cff-1969-4f93-85fa-97e8f730a88c",
+          "width": 0,
+          "x": 841,
+          "y": 652,
+          "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1689,158 +1732,29 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 3,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "9cebea00-c6df-4458-b7ea-60b170c64cd3",
-          "width": 189,
-          "x": 22,
-          "y": 380,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 4,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "bdb1052e-2abe-4aae-b873-4b5a742be513",
-          "width": 357,
-          "x": 297,
-          "y": 563,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 0,
-          "height": 4,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "b0a70ac1-b38a-49dd-9d2e-5c81c4a7c644",
-          "width": 193,
-          "x": 114,
-          "y": 285,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 0,
-          "height": 4,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "7da61e99-93a3-46d1-8b99-7f0b15c42f6b",
-          "width": 136,
-          "x": -66,
+          "height": 23,
+          "layer": "Dialogue",
+          "name": "Yes",
+          "persistentUuid": "a9c73b43-8cee-4143-ba7c-0391c9a0b6f0",
+          "width": 33,
+          "x": 756,
           "y": 653,
-          "zOrder": 27,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 15,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "SmallRock",
-          "persistentUuid": "7a5d6c22-bf0d-4e90-8b9e-3381830ce384",
-          "width": 9,
-          "x": 174,
-          "y": 715,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 226,
-          "layer": "",
-          "name": "BigTree",
-          "persistentUuid": "f5e66eb7-a8d9-4938-b663-c6bf41cc735a",
-          "width": 125,
-          "x": -123,
-          "y": 494,
-          "zOrder": 28,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 15,
-          "layer": "",
-          "name": "SmallRock",
-          "persistentUuid": "be1f4139-2d60-4124-94b5-c536aedfc934",
-          "width": 9,
-          "x": 13,
-          "y": 379,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 190,
-          "layer": "",
-          "name": "SmallTree",
-          "persistentUuid": "58d27a56-7c7e-465a-bc8c-ec11cce350d7",
-          "width": 125,
-          "x": 109,
-          "y": 192,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 190,
-          "layer": "",
-          "name": "SmallTree",
-          "persistentUuid": "8efc9ff2-b4a7-4e02-a18f-16b1c671fdea",
-          "width": 125,
-          "x": 293,
-          "y": 570,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 270,
-          "customSize": true,
-          "depth": 0,
-          "height": 4,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "977f8ebd-61b3-420d-9f8c-5ed0e5d1a034",
-          "width": 108,
-          "x": 601,
-          "y": 512,
-          "zOrder": 27,
+          "name": "Toggle",
+          "persistentUuid": "0f7a8730-79cf-44bc-b379-136a81ed81ed",
+          "width": 0,
+          "x": -551,
+          "y": -3,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1916,9 +1830,9 @@
               "IsCalledManually": false
             },
             {
+              "acceleration": 87,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 87,
               "deceleration": 90,
               "maxSpeed": 60,
               "allowDiagonals": false,
@@ -2248,6 +2162,66 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "5d57f702babd25f22c1cfe8c3fee933e9d84fcb27fc8b8032b2fd70c5aa572ca",
+          "name": "Tree2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tree 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 141,
+                            "y": 0
+                          },
+                          {
+                            "x": 141,
+                            "y": 151
+                          },
+                          {
+                            "x": 0,
+                            "y": 151
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "assetStoreId": "",
@@ -2820,16 +2794,32 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 87,
+              "deceleration": 90,
+              "maxSpeed": 60,
+              "allowDiagonals": false,
+              "rotateObject": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "ignoreDefaultControls": false,
+              "movementAngleOffset": 0,
+              "viewpoint": "TopDown"
+            }
+          ],
           "animations": [
             {
               "name": "Idle",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -2925,9 +2915,9 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -3040,9 +3030,9 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -3155,9 +3145,9 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.3,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -3270,9 +3260,9 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.8,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
@@ -3890,7 +3880,7 @@
             "opacity": 255,
             "scale": 1,
             "fontSize": 20,
-            "tint": "255;255;255",
+            "tint": "0;0;0",
             "bitmapFontResourceName": "",
             "textureAtlasResourceName": "",
             "align": "left",
@@ -3899,7 +3889,63 @@
         },
         {
           "assetStoreId": "",
-          "name": "SmallRock",
+          "name": "No",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "No",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Yes",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "Yes",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "0b7a6d1fe14b961d309456bdc47def85e0b7452a7fbc313a84518765168d49cd",
+          "name": "WideSideRectangleStone",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -3908,16 +3954,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Broken",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
-                      "image": "SmallRock",
+                      "hasCustomCollisionMask": true,
+                      "image": "Wide side rectangle stone_Broken.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3930,7 +3976,122 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 140
+                          },
+                          {
+                            "x": 0,
+                            "y": 140
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Damaged",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Wide side rectangle stone_Damaged.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 140
+                          },
+                          {
+                            "x": 0,
+                            "y": 140
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Perfect",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Wide side rectangle stone_Perfect.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 0
+                          },
+                          {
+                            "x": 220,
+                            "y": 140
+                          },
+                          {
+                            "x": 0,
+                            "y": 140
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -3940,85 +4101,25 @@
         },
         {
           "assetStoreId": "",
-          "name": "BigTree",
+          "bold": false,
+          "italic": false,
+          "name": "Toggle",
+          "smoothed": true,
           "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
+          "type": "TextObject::Text",
+          "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BigTree",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "SmallTree",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "SmallTree",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "toggle",
+          "font": "8bitOperatorPlus8-Regular.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -4109,6 +4210,33 @@
                 "15",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Dialogue\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Toggle"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "KidCompanion",
+                "TopDownMovement",
+                "no"
+              ]
             }
           ],
           "events": [
@@ -4193,17 +4321,6 @@
                   "parameters": [
                     "Characters",
                     "CollisionDetect",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                  },
-                  "parameters": [
-                    "GreenDotBar",
-                    "=",
-                    "Protagonist.Variable(PotionLevel)",
                     ""
                   ]
                 }
@@ -4335,7 +4452,7 @@
                   "parameters": [
                     "Protagonist",
                     "KidCompanion",
-                    "20",
+                    "60",
                     ""
                   ]
                 },
@@ -4452,6 +4569,24 @@
                         "NoBox",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Yes",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "No",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -4474,7 +4609,7 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                            "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
                           },
                           "parameters": [
                             "YesBox",
@@ -4483,6 +4618,24 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Dialogue\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Toggle",
+                            ""
+                          ]
+                        },
                         {
                           "type": {
                             "value": "MettreAutour"
@@ -4501,7 +4654,7 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                            "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenUnchecked"
                           },
                           "parameters": [
                             "NoBox",
@@ -4779,6 +4932,175 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "KidCompanion Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Toggle"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "KidCompanion",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "TopDownMovement",
+                        "\"Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "KidCompanion",
+                        "\"Up\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "TopDownMovement",
+                        "\"Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "KidCompanion",
+                        "\"Left\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "TopDownMovement",
+                        "\"Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "KidCompanion",
+                        "\"Right\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "TopDownMovement",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "KidCompanion",
+                        "\"Down\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TopDownMovementBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "TopDownMovement"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "KidCompanion",
+                        "\"Idle\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -4875,6 +5197,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping"
+        },
         {
           "name": "InOnScreen",
           "type": "IsOnScreen::InOnScreen"
