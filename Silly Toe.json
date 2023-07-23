@@ -1248,7 +1248,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0441589602739227,
+        "zoomFactor": 0.4869633710231048,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1830,9 +1830,9 @@
               "IsCalledManually": false
             },
             {
-              "acceleration": 87,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 87,
               "deceleration": 90,
               "maxSpeed": 60,
               "allowDiagonals": false,
