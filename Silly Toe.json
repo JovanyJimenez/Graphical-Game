@@ -1272,7 +1272,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4264656583452225,
+        "zoomFactor": 0.5379048597031462,
         "windowMask": false
       },
       "objectsGroups": [
@@ -8157,6 +8157,7 @@
               ],
               "parameters": [
                 {
+
                   "description": "Object",
                   "name": "Object",
                   "type": "object"
@@ -8166,6 +8167,7 @@
                   "name": "Behavior",
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
+   
                 }
               ],
               "objectGroups": []
