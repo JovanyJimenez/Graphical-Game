@@ -860,7 +860,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.3170068164767914,
+        "zoomFactor": 0.3734838564258092,
         "windowMask": false
       },
       "objectsGroups": [
@@ -911,6 +911,17 @@
             },
             {
               "name": "TimeSnatcher2"
+            }
+          ]
+        },
+        {
+          "name": "EnemyDetectionSquad",
+          "objects": [
+            {
+              "name": "EnemyDetectOG"
+            },
+            {
+              "name": "EnemyDetect2"
             }
           ]
         }
@@ -1000,13 +1011,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 165,
+          "height": 120,
           "layer": "",
           "name": "MountainPlain",
           "persistentUuid": "12d24982-0e9a-4146-aba2-9c1d2697bdd6",
           "width": 2366,
-          "x": -391,
-          "y": 1269,
+          "x": -387,
+          "y": 1294,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1157,7 +1168,7 @@
           "customSize": true,
           "depth": 0,
           "height": 92,
-          "layer": "",
+          "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "ee071c13-6adb-4c30-bf2e-678addf89596",
           "width": 1965,
@@ -1316,9 +1327,9 @@
               "IsCalledManually": false
             },
             {
-              "acceleration": 87,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 87,
               "deceleration": 90,
               "maxSpeed": 60,
               "allowDiagonals": false,
@@ -3159,7 +3170,7 @@
               },
               "parameters": [
                 "Protagonist",
-                "EnemyDetectOG",
+                "",
                 "",
                 "",
                 ""
