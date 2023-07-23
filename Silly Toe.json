@@ -1176,11 +1176,39 @@
         "userAdded": false
       },
       {
+<<<<<<< HEAD
         "file": "color basic.ttf",
         "kind": "font",
         "metadata": "",
         "name": "color basic.ttf",
         "userAdded": true
+=======
+        "alwaysLoaded": false,
+        "file": "assets/SmallRock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SmallRock",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/BigTree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BigTree",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SmallTree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SmallTree",
+        "smoothed": false,
+        "userAdded": false
+>>>>>>> main
       }
     ],
     "resourceFolders": []
@@ -1209,7 +1237,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< HEAD
         "zoomFactor": 0.8278377307392725,
+=======
+        "zoomFactor": 1.2740455790151444,
+>>>>>>> main
         "windowMask": false
       },
       "objectsGroups": [
@@ -1275,25 +1307,9 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 136,
-          "y": 461,
+          "x": 44,
+          "y": 624,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 26,
-          "layer": "",
-          "name": "Grave2",
-          "persistentUuid": "765a5efd-eac5-4ed0-b9f5-7213926fb716",
-          "width": 21,
-          "x": 193,
-          "y": 393,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1307,8 +1323,8 @@
           "name": "ShadyGuy",
           "persistentUuid": "3a9349ee-80a7-43c8-8091-684376bb4ddb",
           "width": 53,
-          "x": 437,
-          "y": 521,
+          "x": 681,
+          "y": 564,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1318,12 +1334,17 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1345,
+          "height": 1495,
           "layer": "",
           "name": "FloweryPlain",
           "persistentUuid": "3146b76a-06de-4d98-a7fe-e8cb1f765688",
+<<<<<<< HEAD
           "width": 1307,
           "x": 2,
+=======
+          "width": 2311,
+          "x": -343,
+>>>>>>> main
           "y": -196,
           "zOrder": 0,
           "numberProperties": [],
@@ -1384,8 +1405,8 @@
           "name": "Elixir",
           "persistentUuid": "4d23f32b-ba3c-4932-8fc2-76657cd4da0b",
           "width": 0,
-          "x": 273,
-          "y": 501,
+          "x": 524,
+          "y": 285,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1415,8 +1436,8 @@
           "name": "KidCompanion",
           "persistentUuid": "50d7727c-5824-4a3a-8db0-d8bff9f2bf08",
           "width": 43,
-          "x": 215,
-          "y": 278,
+          "x": 112,
+          "y": 485,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -1433,22 +1454,6 @@
           "x": -302,
           "y": -137,
           "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 19,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "92a23704-d68d-4a5f-b770-3eb331ec5de8",
-          "width": 12,
-          "x": 197,
-          "y": 396,
-          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1489,13 +1494,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 58,
+          "height": 175,
           "layer": "",
           "name": "Ocean",
           "persistentUuid": "a95ac459-2955-4173-a59a-8b4a05fbde06",
-          "width": 1843,
-          "x": -451,
-          "y": -221,
+          "width": 2396,
+          "x": -426,
+          "y": -354,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1505,13 +1510,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 92,
-          "layer": "",
+          "height": 198,
+          "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "ee071c13-6adb-4c30-bf2e-678addf89596",
-          "width": 1965,
-          "x": -428,
-          "y": -278,
+          "width": 2393,
+          "x": -424,
+          "y": -387,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -1525,9 +1530,9 @@
           "layer": "",
           "name": "Sand",
           "persistentUuid": "4217e888-f11d-471c-82d9-0bc2d139268c",
-          "width": 1899,
-          "x": -504,
-          "y": -165,
+          "width": 2471,
+          "x": -500,
+          "y": -188,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1541,8 +1546,8 @@
           "name": "TimeSnatcherOG",
           "persistentUuid": "2467668a-def3-4812-886b-3da72fe9a01a",
           "width": 0,
-          "x": 437,
-          "y": 261,
+          "x": 309,
+          "y": 294,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1552,13 +1557,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 152,
+          "height": 185,
           "layer": "Collision",
           "name": "EnemyDetectOG",
           "persistentUuid": "c9a5c084-4c97-43c6-ae2f-f74e5f9d13a6",
-          "width": 88,
-          "x": 426,
-          "y": 250,
+          "width": 181,
+          "x": 284,
+          "y": 236,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1598,13 +1603,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 29,
+          "height": 30,
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "27f234dd-9cb9-4375-a0e8-e4d40fc590dd",
-          "width": 22,
-          "x": 225,
-          "y": 286,
+          "width": 20,
+          "x": 123,
+          "y": 495,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1619,8 +1624,8 @@
           "name": "CollisionDetect",
           "persistentUuid": "5ed6b851-f1a8-44fe-b7f3-aa8764ec6588",
           "width": 11,
-          "x": 456,
-          "y": 535,
+          "x": 700,
+          "y": 576,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -1630,6 +1635,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
+<<<<<<< HEAD
           "height": 23,
           "layer": "",
           "name": "Interact_E",
@@ -1637,10 +1643,166 @@
           "width": 17,
           "x": 229,
           "y": 259,
+=======
+          "height": 1819,
+          "layer": "",
+          "name": "CollisionDetect",
+          "persistentUuid": "b16b0636-2198-4dd7-adcc-2884cceca1a8",
+          "width": 183,
+          "x": 1957,
+          "y": -385,
+>>>>>>> main
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
+=======
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 6,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "2dc461e0-eea8-4588-b0ad-474b4088195a",
+          "width": 299,
+          "x": -1,
+          "y": 717,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 4,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "151355ee-a8cb-406b-bf15-0dd3ff7d29c2",
+          "width": 165,
+          "x": 216,
+          "y": 638,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 6,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "1070b858-4dc6-48af-b470-7c99fb4406e8",
+          "width": 31,
+          "x": 0,
+          "y": 587,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 4,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "6c6f0488-2673-4efa-ba3c-dcae198e3f79",
+          "width": 222,
+          "x": -86,
+          "y": 482,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 3,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "9cebea00-c6df-4458-b7ea-60b170c64cd3",
+          "width": 195,
+          "x": 22,
+          "y": 380,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 4,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "bdb1052e-2abe-4aae-b873-4b5a742be513",
+          "width": 286,
+          "x": 291,
+          "y": 563,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 4,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "b0a70ac1-b38a-49dd-9d2e-5c81c4a7c644",
+          "width": 169,
+          "x": 126,
+          "y": 297,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 4,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "83219416-b4b1-4d69-b6ba-1dde5841c7aa",
+          "width": 116,
+          "x": 518,
+          "y": 506,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 0,
+          "height": 4,
+          "layer": "Collision",
+          "name": "CollisionDetect",
+          "persistentUuid": "7da61e99-93a3-46d1-8b99-7f0b15c42f6b",
+          "width": 136,
+          "x": -66,
+          "y": 653,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+>>>>>>> main
         }
       ],
       "objects": [
@@ -1713,9 +1875,9 @@
               "IsCalledManually": false
             },
             {
-              "acceleration": 87,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 87,
               "deceleration": 90,
               "maxSpeed": 60,
               "allowDiagonals": false,
@@ -2045,66 +2207,6 @@
           "variables": [],
           "effects": [],
           "behaviors": []
-        },
-        {
-          "assetStoreId": "5d57f702babd25f22c1cfe8c3fee933e9d84fcb27fc8b8032b2fd70c5aa572ca",
-          "name": "Tree2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Tree 2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 141,
-                            "y": 0
-                          },
-                          {
-                            "x": 141,
-                            "y": 151
-                          },
-                          {
-                            "x": 0,
-                            "y": 151
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "assetStoreId": "",
@@ -3753,6 +3855,129 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "SmallRock",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SmallRock",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "BigTree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "BigTree",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SmallTree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "SmallTree",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -3927,6 +4152,17 @@
                   "parameters": [
                     "Characters",
                     "CollisionDetect",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "GreenDotBar",
+                    "=",
+                    "Protagonist.Variable(PotionLevel)",
                     ""
                   ]
                 }
