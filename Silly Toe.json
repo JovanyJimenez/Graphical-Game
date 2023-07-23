@@ -783,19 +783,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Square Green Toggle_Off.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Square Green Toggle_Off.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/d05bf00d39eb358ed6633f8fdb2b3b9180629639a659cd3b97ced4fe4cd584a2_Square Green Toggle_Off.png",
-          "name": "Square Green Toggle_Off.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Square Green Toggle_On.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Square Green Toggle_On.png\",\"extension\":\".png\"}",
@@ -839,15 +826,6 @@
         "kind": "image",
         "metadata": "",
         "name": "player.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../Desktop/mystic_woods_free_2.1/sprites/characters/player.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Desktop\\mystic_woods_free_2.1\\sprites\\characters\\player.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -1211,38 +1189,29 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Unchecked.png",
+        "file": "assets/Unchecked3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "Unchecked",
-        "smoothed": true,
+        "name": "Unchecked3",
+        "smoothed": false,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Unchecked2.png",
+        "file": "assets/Square Blue Toggle_Off.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Unchecked2.png\"}",
-        "name": "Unchecked2",
-        "smoothed": true,
-        "userAdded": false
+        "metadata": "{\"localFilePath\":\"assets/Square Blue Toggle_Off.png\",\"extension\":\".png\"}",
+        "name": "assets\\Square Blue Toggle_Off.png",
+        "smoothed": false,
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Checked.png",
+        "file": "assets/Square Blue Toggle_On.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Checked",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "New image5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "New image5.png",
-        "smoothed": true,
+        "metadata": "{\"localFilePath\":\"assets/Square Blue Toggle_On.png\",\"extension\":\".png\"}",
+        "name": "assets\\Square Blue Toggle_On.png",
+        "smoothed": false,
         "userAdded": true
       }
     ],
@@ -1385,7 +1354,7 @@
           "name": "FloweryPlain",
           "persistentUuid": "3146b76a-06de-4d98-a7fe-e8cb1f765688",
           "width": 2311,
-          "x": -371,
+          "x": -374,
           "y": -134,
           "zOrder": 0,
           "numberProperties": [],
@@ -1447,8 +1416,8 @@
           "name": "Elixir",
           "persistentUuid": "4d23f32b-ba3c-4932-8fc2-76657cd4da0b",
           "width": 70,
-          "x": 808,
-          "y": 288,
+          "x": 780,
+          "y": 296,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4421,7 +4390,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": false,
-                          "image": "Unchecked",
+                          "image": "Unchecked3",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
@@ -4498,7 +4467,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": false,
-                          "image": "Unchecked2",
+                          "image": "assets\\Square Blue Toggle_Off.png",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
@@ -4528,7 +4497,7 @@
                       "sprites": [
                         {
                           "hasCustomCollisionMask": false,
-                          "image": "Checked",
+                          "image": "assets\\Square Blue Toggle_On.png",
                           "points": [],
                           "originPoint": {
                             "name": "origine",
