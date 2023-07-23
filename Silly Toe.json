@@ -1236,7 +1236,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3164146233547921,
+        "zoomFactor": 0.5379048597031462,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4586,7 +4586,6 @@
               "conditions": [
                 {
                   "type": {
-                    "inverted": true,
                     "value": "LayerVisible"
                   },
                   "parameters": [
