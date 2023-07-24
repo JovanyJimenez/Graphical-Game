@@ -2562,13 +2562,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 1,
+          "height": 9,
           "layer": "DialogueEnding",
           "name": "EndingDialogue",
           "persistentUuid": "d49982cc-1ad2-43b9-8354-4cef2fb77ac2",
           "width": 1228,
           "x": 27,
-          "y": 60,
+          "y": 52,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -2636,6 +2636,12 @@
               "name": "PotionLevel",
               "type": "number",
               "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Dying",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -5067,6 +5073,73 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Protagonist",
+                "\"DeathCountdown\"",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Protagonist",
+                "TopDownMovement",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Protagonist",
+                "\"DeathCountdown\"",
+                ">=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Grave2",
+                "Protagonist.X()",
+                "Protagonist.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Protagonist",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -5405,27 +5478,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "FriendlyDialogue",
-                    "BitmapText_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
-                  },
-                  "parameters": [
-                    "NoBox",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "NoBox",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -5471,11 +5546,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "YesBox",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "YesBox",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -5581,36 +5674,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "SquareGreenToggle",
-                        "e"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "Protagonist",
-                        "KidCompanion",
-                        "21",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": []
             }
           ],
@@ -5995,7 +6059,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Full Potion Bar",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6005,11 +6068,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "GreenDotBar",
-                    "PotionLevel"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "PotionLevel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "Dying",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -6093,15 +6174,30 @@
                     "BitmapText_AutoTyping",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "Cache"
+                    "value": "Wait"
                   },
                   "parameters": [
-                    "EndingDialogue"
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueEnding\""
                   ]
                 },
                 {
@@ -6120,11 +6216,38 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "LayerVisible"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "",
-                    "\"EndOption\""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        "PotionLevel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LayerVisible"
+                      },
+                      "parameters": [
+                        "",
+                        "\"EndOption\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "Dying",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -6147,39 +6270,6 @@
                 },
                 {
                   "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "YesBox"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "NoBox"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
-                  },
-                  "parameters": [
-                    "EndingOption",
-                    "BitmapText_AutoTyping",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -6203,11 +6293,28 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "NoBox",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "NoBox",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -6220,12 +6327,40 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "HideLayer"
                   },
                   "parameters": [
                     "",
-                    "\"Ending(No)\"",
-                    ""
+                    "\"EndOption\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "\"DeathCountdown\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "Dying",
+                    "True"
                   ]
                 }
               ]
@@ -6235,11 +6370,28 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "YesBox",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "YesBox",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -6391,7 +6543,7 @@
           "isLocked": false,
           "name": "DialogueEnding",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -7820,13 +7972,404 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.27253598967729314,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
-      "objects": [],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Protagonist",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "PotionLevel",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 0.9,
+              "RightwardSpeed": 0.9,
+              "UpwardSpeed": 0.9,
+              "DownwardSpeed": 0.9,
+              "FollowOnX": true,
+              "FollowOnY": true,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 0,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 0,
+              "LogRightwardSpeed": 0,
+              "LogDownwardSpeed": 0,
+              "LogUpwardSpeed": 0,
+              "DelayedCenterX": 0,
+              "DelayedCenterY": 0,
+              "ForecastHistoryMeanX": 0,
+              "ForecastHistoryMeanY": 0,
+              "ForecastHistoryVarianceX": 0,
+              "ForecastHistoryCovariance": 0,
+              "ForecastHistoryLinearA": 0,
+              "ForecastHistoryLinearB": 0,
+              "ForecastedX": 0,
+              "ForecastedY": 0,
+              "ProjectedNewestX": 0,
+              "ProjectedNewestY": 0,
+              "ProjectedOldestX": 0,
+              "ProjectedOldestY": 0,
+              "ForecastHistoryVarianceY": 0,
+              "Index": 0,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 0,
+              "WaitingSpeedXMax": 0,
+              "WaitingSpeedYMax": 0,
+              "WaitingEnd": 0,
+              "CameraDelayCatchUpDuration": 0,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000,
+              "OldY": 9000,
+              "IsCalledManually": false
+            },
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 87,
+              "deceleration": 90,
+              "maxSpeed": 60,
+              "allowDiagonals": false,
+              "rotateObject": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "customIsometryAngle": 30,
+              "ignoreDefaultControls": false,
+              "movementAngleOffset": 0,
+              "viewpoint": "TopDown"
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.8,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PIdle5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PDown1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PDown2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PDown3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PUp1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PUp2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PRight1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PRight2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PLeft1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "PLeft2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [],
       "layers": [
         {
@@ -7857,7 +8400,16 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
     },
     {
       "b": 209,
