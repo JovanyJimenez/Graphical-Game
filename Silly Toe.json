@@ -597,10 +597,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/New image5.png",
+        "file": "assets/Sand.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
-        "name": "New image2",
+        "name": "Sand",
         "smoothed": true,
         "userAdded": false
       },
@@ -4359,7 +4359,7 @@
           "height": 32,
           "name": "Sand",
           "tags": "",
-          "texture": "New image2",
+          "texture": "Sand",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
