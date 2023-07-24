@@ -1213,6 +1213,57 @@
         "name": "assets\\Square Blue Toggle_On.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New image5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New image5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Coins 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "b9ab279dc8ac9ec62164444742695824b9806e01cb49f710937ebdce919e72ee_Coins 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/b9ab279dc8ac9ec62164444742695824b9806e01cb49f710937ebdce919e72ee_Coins 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Walk_06.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "59e585fdbfe421c9b860d44de254bba69a9f674deb5a2d05449deea5276a9695_Walk_06.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/DirtyGround/Walk/59e585fdbfe421c9b860d44de254bba69a9f674deb5a2d05449deea5276a9695_Walk_06.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/1up 9.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1241,7 +1292,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5379048597031462,
+        "zoomFactor": 0.4264656583452225,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1354,8 +1405,8 @@
           "name": "FloweryPlain",
           "persistentUuid": "3146b76a-06de-4d98-a7fe-e8cb1f765688",
           "width": 2311,
-          "x": -374,
-          "y": -134,
+          "x": -375,
+          "y": -133,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1416,8 +1467,8 @@
           "name": "Elixir",
           "persistentUuid": "4d23f32b-ba3c-4932-8fc2-76657cd4da0b",
           "width": 70,
-          "x": 780,
-          "y": 296,
+          "x": 64,
+          "y": 548,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -1432,8 +1483,8 @@
           "name": "Elixir",
           "persistentUuid": "d21d2a73-5dde-4431-b1ff-2295b1ddbf1f",
           "width": 80,
-          "x": 911,
-          "y": 360,
+          "x": 173,
+          "y": 568,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2503,6 +2554,70 @@
           "x": 60,
           "y": 88,
           "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1,
+          "layer": "DialogueEnding",
+          "name": "EndingDialogue",
+          "persistentUuid": "d49982cc-1ad2-43b9-8354-4cef2fb77ac2",
+          "width": 1228,
+          "x": 27,
+          "y": 60,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 1,
+          "layer": "EndOption",
+          "name": "EndingOption",
+          "persistentUuid": "1574d717-ab1f-4ef4-bcd1-c9c3313656c1",
+          "width": 561,
+          "x": 356,
+          "y": 153,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 96,
+          "layer": "EndOption",
+          "name": "YesBox",
+          "persistentUuid": "c9ab14b1-6fb1-4c20-a123-d254bcd1247d",
+          "width": 93,
+          "x": 431,
+          "y": 343,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 97,
+          "layer": "EndOption",
+          "name": "NoBox",
+          "persistentUuid": "8394c639-807a-4836-8996-33277f2fc488",
+          "width": 93,
+          "x": 711,
+          "y": 339,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4165,7 +4280,7 @@
             "EasingDuration": 0,
             "PreviousHighValueDuration": 0,
             "ShowLabel": false,
-            "InitialValue": 8,
+            "InitialValue": 0,
             "MaxValue": 8
           },
           "childrenContent": {
@@ -4600,6 +4715,62 @@
         },
         {
           "assetStoreId": "",
+          "name": "EndingDialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "We did it! We finally did it. Thank you for helping this old man on his journey.\n\nWe wouldn't have it any other way. What do the potions do?\n\nGrant me immortailty. \n\nWhat? Is this really what you want?\n\nI've lived a life without accomplishments. I'm not ready to die.....",
+            "opacity": 255,
+            "scale": 2.7,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "EndingOption",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "Do you want to be immortal?",
+            "opacity": 255,
+            "scale": 2.7,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "SmallRock",
           "tags": "",
           "type": "Sprite",
@@ -4810,11 +4981,29 @@
             },
             {
               "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"DialogueEnding\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"EndOption\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
                 "",
-                "\"AdventureMusic\""
+                "\"WalkingNoise\""
               ]
             },
             {
@@ -4870,7 +5059,7 @@
                 "",
                 "6f57e4470d65276f6e3b5a657da31d397a8b0d181336097cc189d32b2f456ad0_Adventure.aac",
                 "1",
-                "",
+                "yes",
                 "30",
                 ""
               ]
@@ -5017,14 +5206,31 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "Protagonist",
-                    "Elixir",
-                    "",
-                    "",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "SquareGreenToggle",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "Elixir",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ],
@@ -5046,7 +5252,20 @@
                     "Protagonist",
                     "PotionLevel",
                     "+",
-                    "2"
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "b9ab279dc8ac9ec62164444742695824b9806e01cb49f710937ebdce919e72ee_Coins 2.aac",
+                    "2",
+                    "",
+                    "50",
+                    ""
                   ]
                 }
               ]
@@ -5059,7 +5278,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Dialogue",
+          "name": "DialogueKid",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -5304,6 +5523,19 @@
                     "Follow",
                     "True"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac",
+                    "4",
+                    "",
+                    "60",
+                    ""
+                  ]
                 }
               ]
             },
@@ -5334,6 +5566,52 @@
                   ]
                 }
               ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DialogueShadyGuy",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "SquareGreenToggle",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "KidCompanion",
+                        "20",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": []
             }
           ],
           "parameters": []
@@ -5461,6 +5739,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "player movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -5658,9 +5937,338 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"WalkingNoise\"",
+                    ">=",
+                    ".7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "59e585fdbfe421c9b860d44de254bba69a9f674deb5a2d05449deea5276a9695_Walk_06.wav",
+                    "3",
+                    "no",
+                    "60",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"WalkingNoise\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Full Potion Bar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                  },
+                  "parameters": [
+                    "GreenDotBar",
+                    "PotionLevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueEnding\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Interact_E"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueEnding\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
+                  },
+                  "parameters": [
+                    "EndingDialogue",
+                    "BitmapText_AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "EndingDialogue",
+                    "BitmapText_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "EndingDialogue"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EndOption\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EndOption\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
+                  },
+                  "parameters": [
+                    "EndingOption",
+                    "BitmapText_AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "YesBox"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "NoBox"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+                  },
+                  "parameters": [
+                    "EndingOption",
+                    "BitmapText_AutoTyping",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "YesBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "NoBox",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                  },
+                  "parameters": [
+                    "NoBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ending(No)\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                  },
+                  "parameters": [
+                    "YesBox",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ending(Yes)\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -5766,6 +6374,38 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "DialogueRun",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "DialogueEnding",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "EndOption",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -7159,6 +7799,112 @@
           "type": "Flash::Flash"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Ending_40No_41",
+      "name": "Ending(No)",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Ending_40Yes_41",
+      "name": "Ending(Yes)",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
     }
   ],
   "externalEvents": [],
@@ -8126,7 +8872,6 @@
               ],
               "parameters": [
                 {
-
                   "description": "Object",
                   "name": "Object",
                   "type": "object"
@@ -8136,7 +8881,6 @@
                   "name": "Behavior",
                   "supplementaryInformation": "Flash::Flash",
                   "type": "behavior"
-   
                 }
               ],
               "objectGroups": []
