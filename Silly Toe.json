@@ -1328,7 +1328,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.153388966102092,
+        "zoomFactor": 0.7013421310293891,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2701,6 +2701,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -3109,6 +3110,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcherOG",
           "tags": "",
@@ -3223,6 +3225,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher2",
           "tags": "",
@@ -3333,6 +3336,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher3",
           "tags": "",
@@ -3443,6 +3447,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "YoungProtagonist",
           "tags": "",
@@ -3569,6 +3574,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
           "name": "Grave2",
           "tags": "",
@@ -3630,6 +3636,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -3672,6 +3679,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "KidCompanion",
           "tags": "",
@@ -4249,6 +4257,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "6e0b7b3dba53198b4663ad69c419d474cde38e6278c1fb20db69be5a44c00586",
           "name": "Elixir",
           "tags": "",
@@ -4414,6 +4423,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionDetect",
           "tags": "",
@@ -4456,6 +4466,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionIntro",
           "tags": "",
@@ -4498,6 +4509,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -4540,6 +4552,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect2",
           "tags": "",
@@ -4616,6 +4629,7 @@
           "content": {},
           "childrenContent": {
             "State": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -4693,6 +4707,7 @@
           "content": {},
           "childrenContent": {
             "State": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -4922,6 +4937,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallRock",
           "tags": "",
@@ -4963,6 +4979,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BigTree",
           "tags": "",
@@ -5004,6 +5021,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallTree",
           "tags": "",
@@ -6386,12 +6404,29 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+                    "value": "BuiltinCommonInstructions::And"
                   },
-                  "parameters": [
-                    "EndingDialogue",
-                    "BitmapText_AutoTyping",
-                    ""
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+                      },
+                      "parameters": [
+                        "EndingDialogue",
+                        "BitmapText_AutoTyping",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
@@ -6778,7 +6813,7 @@
           "isLocked": false,
           "name": "EndOption",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -6946,6 +6981,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher",
           "tags": "",
@@ -7030,6 +7066,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9ac194a100fb1f24d54c0f218f3c38836f6a2766577309235412efc381676af6",
           "name": "Sword",
           "tags": "",
@@ -7098,6 +7135,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CurvedSlash",
           "tags": "",
@@ -7140,6 +7178,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash1",
           "tags": "",
@@ -7181,6 +7220,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash2",
           "tags": "",
@@ -7288,6 +7328,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Target",
           "tags": "",
@@ -7330,6 +7371,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -7652,6 +7694,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -8191,7 +8234,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3673257545058824,
+        "zoomFactor": 0.24672586957406287,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8250,7 +8293,7 @@
           "customSize": true,
           "depth": 0,
           "height": 199,
-          "layer": "",
+          "layer": "DialogueShadyGuy",
           "name": "ShadyGuyDialogue",
           "persistentUuid": "48de5a28-c4d2-404c-9ffd-5b59cec82d0e",
           "width": 1206,
@@ -8260,10 +8303,27 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 368,
+          "layer": "",
+          "name": "Intro",
+          "persistentUuid": "d5e6ba2e-93c8-4766-af6f-4595f79b1339",
+          "width": 573,
+          "x": 334,
+          "y": 144,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -8305,6 +8365,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Darkness",
           "tags": "",
@@ -8347,6 +8408,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Elixir",
           "tags": "",
@@ -8431,6 +8493,34 @@
             "align": "center",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Intro",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "A long time ago, a young boy heard a story. It is said that there are potions scattered across the kingdom, for together, they grant immortality. The boy was very curious, but soon forgot about this tale. At 85 years old, this tale is all he can think about. ",
+            "opacity": 255,
+            "scale": 2,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -8446,7 +8536,113 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShadyGuy"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Elixir"
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"DialogueShadyGuy\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::BitmapText_AutoTyping::Pause"
+              },
+              "parameters": [
+                "ShadyGuyDialogue",
+                "BitmapText_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "Intro",
+                "BitmapText_AutoTyping",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShadyGuy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Elixir",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Intro"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"DialogueShadyGuy\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::BitmapText_AutoTyping::Resume"
+              },
+              "parameters": [
+                "ShadyGuyDialogue",
+                "BitmapText_AutoTyping",
+                ""
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8522,7 +8718,7 @@
           "isLocked": false,
           "name": "DialogueShadyGuy",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -17595,6 +17791,7 @@
           ],
           "objects": [
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "State",
               "tags": "",
