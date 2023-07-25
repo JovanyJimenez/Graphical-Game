@@ -1306,7 +1306,7 @@
         "file": "assets/Seashell.png",
         "kind": "image",
         "metadata": "",
-        "name": "Seashell.png",
+        "name": "Seashell",
         "smoothed": false,
         "userAdded": true
       },
@@ -1315,7 +1315,7 @@
         "file": "assets/Palmtree.png",
         "kind": "image",
         "metadata": "",
-        "name": "Palmtree.png",
+        "name": "Palmtree",
         "smoothed": false,
         "userAdded": true
       },
@@ -1324,7 +1324,43 @@
         "file": "assets/Blueberrybush.png",
         "kind": "image",
         "metadata": "",
-        "name": "Blueberrybush.png",
+        "name": "Blueberrybush",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dobby.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dobby",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GirlCompanion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GirlCompanion",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/KidCompanion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KidCompanion",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DeathField.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DeathField",
         "smoothed": false,
         "userAdded": true
       }
@@ -1355,7 +1391,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33811361705897686,
+        "zoomFactor": 0.3060930641948844,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1415,6 +1451,12 @@
             },
             {
               "name": "TimeSnatcher2"
+            },
+            {
+              "name": "TimeSnatcher4"
+            },
+            {
+              "name": "TimeSnatcher5"
             }
           ]
         },
@@ -1441,8 +1483,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 99,
-          "y": 608,
+          "x": 430,
+          "y": 185,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1488,8 +1530,8 @@
           "name": "Transition",
           "persistentUuid": "f2bc6ff6-3c95-46f6-a2ba-5e7d0bb05403",
           "width": 0,
-          "x": 1282,
-          "y": -440,
+          "x": 3948,
+          "y": 14,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -1564,7 +1606,7 @@
           "depth": 0,
           "height": 46,
           "layer": "",
-          "name": "KidCompanion",
+          "name": "KidCompanion2",
           "persistentUuid": "50d7727c-5824-4a3a-8db0-d8bff9f2bf08",
           "width": 43,
           "x": 348,
@@ -3511,52 +3553,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 412,
-          "layer": "Collision",
-          "name": "EnemyDetectOG",
-          "persistentUuid": "7a3700df-3a1f-4cc4-912a-8a575a98fb76",
-          "width": 501,
-          "x": 922,
-          "y": -1210,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "1c44cbdb-afdf-4f66-9304-79339304f91d",
-          "width": 0,
-          "x": 1018,
-          "y": -959,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "a17aac00-c884-444d-8a42-8e6595e21e18",
-          "width": 0,
-          "x": 1140,
-          "y": -1050,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 52,
           "layer": "",
           "name": "Elixir",
@@ -3733,22 +3729,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 497,
-          "layer": "Collision",
-          "name": "EnemyDetectOG",
-          "persistentUuid": "6e3c28b5-d157-4102-a78b-451a3e82057b",
-          "width": 542,
-          "x": 1315,
-          "y": -520,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 4,
           "layer": "Collision",
           "name": "CollisionDetect",
@@ -3757,36 +3737,6 @@
           "x": 1451,
           "y": 470,
           "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "d874b5f9-fc6b-4087-bfc9-917f0fd9c79f",
-          "width": 0,
-          "x": 1793,
-          "y": -179,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "db395553-ab42-4578-b284-29dd6cfc2e4a",
-          "width": 0,
-          "x": 1710,
-          "y": -379,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3875,52 +3825,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 428,
-          "layer": "Collision",
-          "name": "EnemyDetectOG",
-          "persistentUuid": "2a386070-83b5-41b8-9aba-d31037f7d468",
-          "width": 555,
-          "x": 2582,
-          "y": 689,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "d601dea6-a4ca-4319-b852-4f11c3070aa0",
-          "width": 0,
-          "x": 2585,
-          "y": 913,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "f17c1acd-e3e1-4538-b5ec-edc19f1fffda",
-          "width": 0,
-          "x": 2830,
-          "y": 973,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
           "height": 59,
           "layer": "",
           "name": "Elixir",
@@ -3929,52 +3833,6 @@
           "x": 2714,
           "y": 1125,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 459,
-          "layer": "Collision",
-          "name": "EnemyDetectOG",
-          "persistentUuid": "a080367d-6a70-4840-9b83-5a71f0f93dab",
-          "width": 492,
-          "x": -744,
-          "y": 764,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "1a31e4de-cc4a-4bda-9405-e4c3bc941b2e",
-          "width": 0,
-          "x": -530,
-          "y": 836,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "TimeSnatcherOG",
-          "persistentUuid": "661888d7-5731-4972-915a-dc6e47f1ac0e",
-          "width": 0,
-          "x": -372,
-          "y": 935,
-          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11884,11 +11742,195 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 386,
+          "layer": "Collision",
+          "name": "EnemyDetect2",
+          "persistentUuid": "510d0791-985a-45c9-90d8-cda28d013032",
+          "width": 521,
+          "x": 1409,
+          "y": -424,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher2",
+          "persistentUuid": "02f395b8-646a-47d3-9778-d74a6aa56db3",
+          "width": 0,
+          "x": 1606,
+          "y": -349,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher2",
+          "persistentUuid": "4b9148bb-4ab8-46f3-947b-dc5a5f8603eb",
+          "width": 0,
+          "x": 1762,
+          "y": -189,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 300,
+          "layer": "Collision",
+          "locked": true,
+          "name": "EnemyDetect3",
+          "persistentUuid": "cfa0c56c-27e8-4601-8f53-0e3286fc5878",
+          "width": 554,
+          "x": -748,
+          "y": 818,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher3",
+          "persistentUuid": "638aeb9b-fe83-4ccd-8aa7-a10d3ad64d7e",
+          "width": 0,
+          "x": -463,
+          "y": 932,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher3",
+          "persistentUuid": "6cc599ab-baaa-4148-a2a7-2fe414f427f9",
+          "width": 0,
+          "x": -623,
+          "y": 838,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher4",
+          "persistentUuid": "2f8836b4-acb6-4cda-904c-260931c77b02",
+          "width": 0,
+          "x": 2676,
+          "y": 713,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher4",
+          "persistentUuid": "544b9621-9445-4b52-8439-92aa0a91bee9",
+          "width": 0,
+          "x": 2633,
+          "y": 1016,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 361,
+          "layer": "Collision",
+          "name": "EnemyDetect4",
+          "persistentUuid": "2b312a4a-7f97-4f84-9850-8b8bb7e4741f",
+          "width": 694,
+          "x": 2499,
+          "y": 716,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 279,
+          "layer": "Collision",
+          "name": "EnemyDetect5",
+          "persistentUuid": "7b5b7df3-0433-473a-9e03-15620357b1ab",
+          "width": 483,
+          "x": 960,
+          "y": -1062,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher5",
+          "persistentUuid": "3c5a8e00-85af-4e3a-a07c-baefe2a834a6",
+          "width": 0,
+          "x": 987,
+          "y": -1039,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher5",
+          "persistentUuid": "a797cbce-4424-4f12-a6d2-342a88cd0fa6",
+          "width": 0,
+          "x": 1281,
+          "y": -1022,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -11963,11 +12005,11 @@
               "IsCalledManually": false
             },
             {
+              "deceleration": 90,
+              "maxSpeed": 80,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 87,
-              "deceleration": 90,
-              "maxSpeed": 60,
               "allowDiagonals": false,
               "rotateObject": false,
               "angleOffset": 0,
@@ -12297,7 +12339,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcherOG",
           "tags": "",
@@ -12412,7 +12453,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher2",
           "tags": "",
@@ -12523,7 +12563,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher3",
           "tags": "",
@@ -12634,7 +12673,226 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "TimeSnatcher4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 40,
+              "maxSpeed": 20,
+              "rotateObject": false,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TimeSnatcher5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 40,
+              "maxSpeed": 20,
+              "rotateObject": false,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "name": "YoungProtagonist",
           "tags": "",
@@ -12761,7 +13019,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
           "name": "Grave2",
           "tags": "",
@@ -12823,7 +13080,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -12866,9 +13122,8 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "KidCompanion",
+          "name": "KidCompanion2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -13444,7 +13699,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "6e0b7b3dba53198b4663ad69c419d474cde38e6278c1fb20db69be5a44c00586",
           "name": "Elixir",
           "tags": "",
@@ -13610,7 +13864,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionDetect",
           "tags": "",
@@ -13653,7 +13906,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionIntro",
           "tags": "",
@@ -13696,7 +13948,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -13739,9 +13990,134 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "CollisionDetect",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CollisionDetect",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EnemyDetect3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "CollisionDetect",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CollisionDetect",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EnemyDetect4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "CollisionDetect",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "CollisionDetect",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EnemyDetect5",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -13816,7 +14192,6 @@
           "content": {},
           "childrenContent": {
             "State": {
-              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -13894,7 +14269,6 @@
           "content": {},
           "childrenContent": {
             "State": {
-              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -14124,7 +14498,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallRock",
           "tags": "",
@@ -14166,7 +14539,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BigTree",
           "tags": "",
@@ -14208,7 +14580,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallTree",
           "tags": "",
@@ -14250,7 +14621,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Seashell",
           "tags": "",
@@ -14270,7 +14640,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Seashell.png",
+                      "image": "Seashell",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14292,7 +14662,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Palmtree",
           "tags": "",
@@ -14312,7 +14681,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Palmtree.png",
+                      "image": "Palmtree",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14334,7 +14703,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Blueberrybush",
           "tags": "",
@@ -14354,7 +14722,171 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Blueberrybush.png",
+                      "image": "Blueberrybush",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Dobby",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Dobby",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Dobby",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "GirlCompanion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "GirlCompanion",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "GirlCompanion",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "KidCompanion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "KidCompanion",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "DeathField",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "DeathField",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "DeathField",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14636,7 +15168,7 @@
                   },
                   "parameters": [
                     "Protagonist",
-                    "TimeSnatcherOG",
+                    "TimeSnatcherParty",
                     "",
                     "",
                     ""
@@ -14660,7 +15192,7 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "TimeSnatcherOG",
+                    "TimeSnatcherParty",
                     ""
                   ]
                 },
@@ -14790,7 +15322,7 @@
                       },
                       "parameters": [
                         "Protagonist",
-                        "KidCompanion",
+                        "KidCompanion2",
                         "20",
                         ""
                       ]
@@ -15023,7 +15555,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "KidCompanion",
+                    "KidCompanion2",
                     "Follow",
                     "True"
                   ]
@@ -15051,7 +15583,7 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "KidCompanion",
+                    "KidCompanion2",
                     "Follow",
                     "True"
                   ]
@@ -15063,7 +15595,7 @@
                     "value": "MettreAutour"
                   },
                   "parameters": [
-                    "KidCompanion",
+                    "KidCompanion2",
                     "Protagonist",
                     "40",
                     "180"
@@ -15079,6 +15611,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "ShadyGuy Intro",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15168,6 +15701,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "TimeSnatcher Pathfinding",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15195,6 +15729,166 @@
                   },
                   "parameters": [
                     "TimeSnatcherOG",
+                    "Pathfinding",
+                    "",
+                    "Protagonist.X()",
+                    "Protagonist.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueRun\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "EnemyDetect2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "TimeSnatcher2",
+                    "Pathfinding",
+                    "",
+                    "Protagonist.X()",
+                    "Protagonist.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueRun\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "EnemyDetect3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "TimeSnatcher3",
+                    "Pathfinding",
+                    "",
+                    "Protagonist.X()",
+                    "Protagonist.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueRun\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "EnemyDetect4",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "TimeSnatcher4",
+                    "Pathfinding",
+                    "",
+                    "Protagonist.X()",
+                    "Protagonist.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DialogueRun\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "EnemyDetect5",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "TimeSnatcher5",
                     "Pathfinding",
                     "",
                     "Protagonist.X()",
@@ -16289,7 +16983,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher",
           "tags": "",
@@ -16374,7 +17067,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9ac194a100fb1f24d54c0f218f3c38836f6a2766577309235412efc381676af6",
           "name": "Sword",
           "tags": "",
@@ -16443,7 +17135,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CurvedSlash",
           "tags": "",
@@ -16486,7 +17177,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash1",
           "tags": "",
@@ -16528,7 +17218,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash2",
           "tags": "",
@@ -16636,7 +17325,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Target",
           "tags": "",
@@ -16679,7 +17367,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -17002,7 +17689,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -17631,7 +18317,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -17673,7 +18358,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Darkness",
           "tags": "",
@@ -17716,7 +18400,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Elixir",
           "tags": "",
@@ -27099,7 +27782,6 @@
           ],
           "objects": [
             {
-              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "State",
               "tags": "",
