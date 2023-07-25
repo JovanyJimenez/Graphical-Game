@@ -1391,7 +1391,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.09275629985814636,
+        "zoomFactor": 0.13359095340628127,
         "windowMask": false
       },
       "objectsGroups": [
@@ -11927,10 +11927,26 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TimeSnatcher2",
+          "persistentUuid": "abe2c1d7-8938-4bba-99c8-e43db2a77234",
+          "width": 0,
+          "x": 1558,
+          "y": 926,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -12005,10 +12021,10 @@
               "IsCalledManually": false
             },
             {
-              "deceleration": 90,
-              "maxSpeed": 80,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "deceleration": 90,
+              "maxSpeed": 80,
               "acceleration": 87,
               "allowDiagonals": false,
               "rotateObject": false,
@@ -12339,6 +12355,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcherOG",
           "tags": "",
@@ -12453,6 +12470,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher2",
           "tags": "",
@@ -12563,6 +12581,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher3",
           "tags": "",
@@ -12673,6 +12692,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher4",
           "tags": "",
@@ -12783,6 +12803,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher5",
           "tags": "",
@@ -12893,6 +12914,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "YoungProtagonist",
           "tags": "",
@@ -13019,6 +13041,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
           "name": "Grave2",
           "tags": "",
@@ -13080,6 +13103,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -13122,6 +13146,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "KidCompanion2",
           "tags": "",
@@ -13699,6 +13724,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "6e0b7b3dba53198b4663ad69c419d474cde38e6278c1fb20db69be5a44c00586",
           "name": "Elixir",
           "tags": "",
@@ -13864,6 +13890,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionDetect",
           "tags": "",
@@ -13906,6 +13933,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionIntro",
           "tags": "",
@@ -13948,6 +13976,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -13990,6 +14019,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect2",
           "tags": "",
@@ -14032,6 +14062,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect3",
           "tags": "",
@@ -14074,6 +14105,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect4",
           "tags": "",
@@ -14116,6 +14148,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect5",
           "tags": "",
@@ -14192,6 +14225,7 @@
           "content": {},
           "childrenContent": {
             "State": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -14269,6 +14303,7 @@
           "content": {},
           "childrenContent": {
             "State": {
+              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -14498,6 +14533,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallRock",
           "tags": "",
@@ -14539,6 +14575,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BigTree",
           "tags": "",
@@ -14580,6 +14617,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallTree",
           "tags": "",
@@ -14621,6 +14659,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Seashell",
           "tags": "",
@@ -14662,6 +14701,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Palmtree",
           "tags": "",
@@ -14703,6 +14743,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Blueberrybush",
           "tags": "",
@@ -14744,6 +14785,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Dobby",
           "tags": "",
@@ -14785,6 +14827,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "GirlCompanion",
           "tags": "",
@@ -14826,6 +14869,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "KidCompanion",
           "tags": "",
@@ -14867,6 +14911,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "DeathField",
           "tags": "",
@@ -15293,7 +15338,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "DialogueKid",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16983,6 +17027,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher",
           "tags": "",
@@ -17067,6 +17112,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9ac194a100fb1f24d54c0f218f3c38836f6a2766577309235412efc381676af6",
           "name": "Sword",
           "tags": "",
@@ -17135,6 +17181,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CurvedSlash",
           "tags": "",
@@ -17177,6 +17224,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash1",
           "tags": "",
@@ -17218,6 +17266,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash2",
           "tags": "",
@@ -17325,6 +17374,7 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Target",
           "tags": "",
@@ -17367,6 +17417,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -17689,6 +17740,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -18317,6 +18369,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -18358,6 +18411,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Darkness",
           "tags": "",
@@ -18400,6 +18454,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Elixir",
           "tags": "",
@@ -27782,6 +27837,7 @@
           ],
           "objects": [
             {
+              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "State",
               "tags": "",
