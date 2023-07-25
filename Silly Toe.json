@@ -1289,7 +1289,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Cosmos",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1298,6 +1298,33 @@
         "kind": "image",
         "metadata": "",
         "name": "ElixirIntro",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Seashell.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Seashell.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Palmtree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Palmtree.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Blueberrybush.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blueberrybush.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -1328,7 +1355,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39909652806301427,
+        "zoomFactor": 0.20559701166518765,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3499,7 +3526,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -3908,7 +3934,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcherOG",
           "tags": "",
@@ -4023,7 +4048,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher2",
           "tags": "",
@@ -4134,7 +4158,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher3",
           "tags": "",
@@ -4245,7 +4268,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "YoungProtagonist",
           "tags": "",
@@ -4372,7 +4394,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
           "name": "Grave2",
           "tags": "",
@@ -4434,7 +4455,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -4477,7 +4497,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "KidCompanion",
           "tags": "",
@@ -5055,7 +5074,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "6e0b7b3dba53198b4663ad69c419d474cde38e6278c1fb20db69be5a44c00586",
           "name": "Elixir",
           "tags": "",
@@ -5221,7 +5239,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionDetect",
           "tags": "",
@@ -5264,7 +5281,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CollisionIntro",
           "tags": "",
@@ -5307,7 +5323,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -5350,7 +5365,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetect2",
           "tags": "",
@@ -5427,7 +5441,6 @@
           "content": {},
           "childrenContent": {
             "State": {
-              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -5505,7 +5518,6 @@
           "content": {},
           "childrenContent": {
             "State": {
-              "adaptCollisionMaskAutomatically": false,
               "updateIfNotVisible": false,
               "animations": [
                 {
@@ -5735,7 +5747,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallRock",
           "tags": "",
@@ -5777,7 +5788,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BigTree",
           "tags": "",
@@ -5819,7 +5829,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "SmallTree",
           "tags": "",
@@ -5840,6 +5849,129 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "SmallTree",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Seashell",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Seashell.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Palmtree",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Palmtree.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Blueberrybush",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Blueberrybush.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7774,7 +7906,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "TimeSnatcher",
           "tags": "",
@@ -7859,7 +7990,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "9ac194a100fb1f24d54c0f218f3c38836f6a2766577309235412efc381676af6",
           "name": "Sword",
           "tags": "",
@@ -7928,7 +8058,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "CurvedSlash",
           "tags": "",
@@ -7971,7 +8100,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash1",
           "tags": "",
@@ -8013,7 +8141,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Slash2",
           "tags": "",
@@ -8121,7 +8248,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Target",
           "tags": "",
@@ -8164,7 +8290,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Protagonist",
           "tags": "",
@@ -8487,7 +8612,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "EnemyDetectOG",
           "tags": "",
@@ -9116,7 +9240,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "ShadyGuy",
           "tags": "",
@@ -9158,7 +9281,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Darkness",
           "tags": "",
@@ -9201,7 +9323,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Elixir",
           "tags": "",
@@ -18584,7 +18705,6 @@
           ],
           "objects": [
             {
-              "adaptCollisionMaskAutomatically": false,
               "assetStoreId": "",
               "name": "State",
               "tags": "",
