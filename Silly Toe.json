@@ -1191,7 +1191,6 @@
         "file": "assets/Wide side rectangle stone_Perfect.png",
         "kind": "image",
         "metadata": "",
-
         "name": "Wide side rectangle stone_Perfect.png",
         "smoothed": true,
         "userAdded": false,
@@ -1201,9 +1200,9 @@
         }
       },
       {
-        "name": "SmallTree",
-        "smoothed": false,
-        "userAdded": false
+        "kind": "",
+        "metadata": "",
+        "name": "SmallTree"
       },
       {
         "alwaysLoaded": false,
@@ -1345,7 +1344,33 @@
         "name": "Blueberrybush.png",
         "smoothed": false,
         "userAdded": true
-
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wide side rectangle stone_Perfect2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wide side rectangle stone_Perfect",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Wide side rectangle stone_Perfect3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Wide side rectangle stone_Perfect2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SmallTree3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SmallTree2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1374,7 +1399,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.33811361705897686,
+        "zoomFactor": 0.29610819801824334,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1737,7 +1762,6 @@
         },
         {
           "angle": 0,
-
           "customSize": true,
           "depth": 0,
           "height": 8,
@@ -1778,9 +1802,14 @@
           "persistentUuid": "16b7f99c-aacd-40f1-b204-953f0e2d086e",
           "width": 17,
           "x": 229,
-          "y": 259
+          "y": 259,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         },
         {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -1896,9 +1925,16 @@
           "name": "Yes",
           "persistentUuid": "a9c73b43-8cee-4143-ba7c-0391c9a0b6f0",
           "width": 33,
-          "x": 756
+          "x": 756,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         },
-      {
+        {
+          "angle": 0,
+          "customSize": false,
           "height": 3,
           "layer": "Collision",
           "name": "CollisionDetect",
@@ -1969,9 +2005,13 @@
           "width": 0,
           "x": -551,
           "y": -3,
-          "zOrder": 36
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         },
         {
+          "angle": 0,
           "customSize": true,
           "depth": 0,
           "height": 183,
@@ -12408,6 +12448,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "5d57f702babd25f22c1cfe8c3fee933e9d84fcb27fc8b8032b2fd70c5aa572ca",
           "name": "Tree2",
           "tags": "",
@@ -14322,112 +14363,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Broken",
+              "name": "Wide side rectangle stone_Perfect",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.025,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Wide side rectangle stone_Broken.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 220,
-                            "y": 0
-                          },
-                          {
-                            "x": 220,
-                            "y": 140
-                          },
-                          {
-                            "x": 0,
-                            "y": 140
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Damaged",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wide side rectangle stone_Damaged.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 220,
-                            "y": 0
-                          },
-                          {
-                            "x": 220,
-                            "y": 140
-                          },
-                          {
-                            "x": 0,
-                            "y": 140
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Perfect",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wide side rectangle stone_Perfect.png",
+                      "image": "Wide side rectangle stone_Perfect2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14468,7 +14414,6 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -14480,37 +14425,15 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "BigTree",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          "string": "",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 0,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -14524,16 +14447,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "SmallTree",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "SmallTree",
+                      "image": "SmallTree2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
