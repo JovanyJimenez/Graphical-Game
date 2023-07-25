@@ -1328,7 +1328,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2125298107620484,
+        "zoomFactor": 0.39909652806301427,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1508,8 +1508,8 @@
           "name": "Elixir",
           "persistentUuid": "4d23f32b-ba3c-4932-8fc2-76657cd4da0b",
           "width": 70,
-          "x": 890,
-          "y": -303,
+          "x": 882,
+          "y": -332,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -6035,73 +6035,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Protagonist",
-                "\"DeathCountdown\"",
-                ">=",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Protagonist",
-                "TopDownMovement",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Protagonist",
-                "\"DeathCountdown\"",
-                ">=",
-                "7"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Grave2",
-                "Protagonist.X()",
-                "Protagonist.Y()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Protagonist",
-                ""
-              ]
-            }
-          ]
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -7422,6 +7355,73 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "\"DeathCountdown\"",
+                    ">=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "\"DeathCountdown\"",
+                    ">=",
+                    "7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Grave2",
+                    "Protagonist.X()",
+                    "Protagonist.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "BuiltinCommonInstructions::And"
                   },
                   "parameters": [],
@@ -7468,11 +7468,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
