@@ -14760,33 +14760,6 @@
               "parameters": [
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "",
-                "\"Dialogue\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Toggle"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "KidCompanion",
-                "TopDownMovement",
-                "no"
-              ]
             }
           ],
           "actions": [
