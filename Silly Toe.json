@@ -1303,7 +1303,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Seashell.png",
+        "file": "assets/Seashell.png",
         "kind": "image",
         "metadata": "",
         "name": "Seashell.png",
@@ -1312,7 +1312,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Palmtree.png",
+        "file": "assets/Palmtree.png",
         "kind": "image",
         "metadata": "",
         "name": "Palmtree.png",
@@ -1321,7 +1321,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Blueberrybush.png",
+        "file": "assets/Blueberrybush.png",
         "kind": "image",
         "metadata": "",
         "name": "Blueberrybush.png",
