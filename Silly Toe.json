@@ -1363,6 +1363,20 @@
         "name": "DeathField",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Night in the Castle.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "19f6db08fc742c65d0d38945a104f647dc9fe0b1b4e0a84d726c7553e65855e0_Night in the Castle.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/19f6db08fc742c65d0d38945a104f647dc9fe0b1b4e0a84d726c7553e65855e0_Night in the Castle.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -1391,7 +1405,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13359095340628127,
+        "zoomFactor": 0.3381136170589794,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1483,8 +1497,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 430,
-          "y": 185,
+          "x": 107,
+          "y": 610,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1596,22 +1610,6 @@
           "x": 2710,
           "y": -608,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 46,
-          "layer": "",
-          "name": "KidCompanion2",
-          "persistentUuid": "50d7727c-5824-4a3a-8db0-d8bff9f2bf08",
-          "width": 43,
-          "x": 348,
-          "y": 424,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3365,8 +3363,8 @@
           "layer": "Collision",
           "name": "CollisionDetect",
           "persistentUuid": "05118f7c-7059-468a-91d6-070510522efe",
-          "width": 1360,
-          "x": -364,
+          "width": 1340,
+          "x": -344,
           "y": -762,
           "zOrder": 27,
           "numberProperties": [],
@@ -3558,8 +3556,8 @@
           "name": "Elixir",
           "persistentUuid": "5e5d6d56-25cb-448f-91c7-ac8d35c5636d",
           "width": 80,
-          "x": 404,
-          "y": 1389,
+          "x": 1181,
+          "y": 1402,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -11942,6 +11940,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GirlCompanion",
+          "persistentUuid": "88fa2765-88a4-4e74-b386-b20b803d5ffc",
+          "width": 0,
+          "x": -161,
+          "y": -674,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Dobby",
+          "persistentUuid": "e7fe5ca4-602c-47f0-a906-d6dc2eabf89b",
+          "width": 0,
+          "x": 2704,
+          "y": 81,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "KidCompanion",
+          "persistentUuid": "795b25a6-8eee-4a06-9ce9-34ed16b51813",
+          "width": 0,
+          "x": 333,
+          "y": 423,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -12021,11 +12064,11 @@
               "IsCalledManually": false
             },
             {
+              "acceleration": 94,
+              "deceleration": 90,
+              "maxSpeed": 90,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "deceleration": 90,
-              "maxSpeed": 80,
-              "acceleration": 87,
               "allowDiagonals": false,
               "rotateObject": false,
               "angleOffset": 0,
@@ -12369,10 +12412,10 @@
               "type": "IsOnScreen::InOnScreen"
             },
             {
+              "acceleration": 92,
+              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 80,
-              "maxSpeed": 40,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12480,10 +12523,10 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 92,
+              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 40,
-              "maxSpeed": 20,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12591,10 +12634,10 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 92,
+              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 40,
-              "maxSpeed": 20,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12702,10 +12745,10 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 92,
+              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 40,
-              "maxSpeed": 20,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12813,10 +12856,10 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 92,
+              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 40,
-              "maxSpeed": 20,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -14973,7 +15016,7 @@
               },
               "parameters": [
                 "",
-                "3",
+                "2.5",
                 "",
                 ""
               ]
@@ -15366,7 +15409,7 @@
                       },
                       "parameters": [
                         "Protagonist",
-                        "KidCompanion2",
+                        "KidCompanion",
                         "20",
                         ""
                       ]
@@ -15599,7 +15642,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "KidCompanion2",
+                    "KidCompanion",
                     "Follow",
                     "True"
                   ]
@@ -15627,7 +15670,7 @@
                     "value": "ObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "KidCompanion2",
+                    "KidCompanion",
                     "Follow",
                     "True"
                   ]
@@ -15639,7 +15682,7 @@
                     "value": "MettreAutour"
                   },
                   "parameters": [
-                    "KidCompanion2",
+                    "KidCompanion",
                     "Protagonist",
                     "40",
                     "180"
@@ -15655,7 +15698,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "ShadyGuy Intro",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15745,7 +15787,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "TimeSnatcher Pathfinding",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16024,7 +16065,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "player movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18617,6 +18657,19 @@
                 "BitmapText_AutoTyping",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "19f6db08fc742c65d0d38945a104f647dc9fe0b1b4e0a84d726c7553e65855e0_Night in the Castle.aac",
+                "5",
+                "yes",
+                "30",
+                ""
+              ]
             }
           ]
         },
@@ -18710,6 +18763,15 @@
                 "value": "Wait"
               },
               "parameters": [
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseMusicCanal"
+              },
+              "parameters": [
+                "",
                 "5"
               ]
             },
