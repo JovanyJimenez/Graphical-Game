@@ -1405,7 +1405,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3381136170589794,
+        "zoomFactor": 0.6142111531023425,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1497,8 +1497,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 107,
-          "y": 610,
+          "x": 38,
+          "y": 447,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -11943,14 +11943,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 54,
           "layer": "",
           "name": "GirlCompanion",
           "persistentUuid": "88fa2765-88a4-4e74-b386-b20b803d5ffc",
-          "width": 0,
-          "x": -161,
-          "y": -674,
+          "width": 50,
+          "x": 374,
+          "y": 440,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -11979,9 +11980,201 @@
           "name": "KidCompanion",
           "persistentUuid": "795b25a6-8eee-4a06-9ce9-34ed16b51813",
           "width": 0,
-          "x": 333,
-          "y": 423,
+          "x": 185,
+          "y": 444,
           "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "0e33d2e4-9c90-4541-8ac1-8b665e198533",
+          "width": 80,
+          "x": 1229,
+          "y": -718,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "bad68cbd-7a76-49fe-810f-3a02a3792318",
+          "width": 80,
+          "x": 2988,
+          "y": 375,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "b1bd1a9b-cac4-461e-9579-8da78b612257",
+          "width": 80,
+          "x": 2212,
+          "y": 1383,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "7eeb2d24-47e2-4104-b4cd-105907bdeb20",
+          "width": 80,
+          "x": -34,
+          "y": 1383,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "00e0324e-8756-4698-ac46-ff3fb4766c3a",
+          "width": 80,
+          "x": 79,
+          "y": 91,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "1f248c89-131e-423a-a617-a781ca66524a",
+          "width": 80,
+          "x": 1543,
+          "y": -1254,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "5cfdd4ca-33a0-49f8-a3bf-dd82528a63f0",
+          "width": 80,
+          "x": 2869,
+          "y": -1254,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "c7fa3929-63a2-42f0-806b-62bd6a309ead",
+          "width": 80,
+          "x": 799,
+          "y": 634,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 52,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "104c3022-61b6-4428-a365-d92dffb6aaa3",
+          "width": 80,
+          "x": 2130,
+          "y": 63,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 499,
+          "layer": "GirlDialogue",
+          "name": "GirlDialogue",
+          "persistentUuid": "6f64b934-4980-4581-9f97-9826dfd583d1",
+          "width": 946,
+          "x": 171,
+          "y": 12,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 98,
+          "layer": "GirlDialogue",
+          "name": "NoBox2",
+          "persistentUuid": "ae89e498-8696-41a1-9a3d-45fe7ddf4ec3",
+          "width": 77,
+          "x": 582,
+          "y": 375,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 92,
+          "layer": "GirlDialogue",
+          "name": "YesBox2",
+          "persistentUuid": "6ce7238c-3b4a-43e8-bade-e041a12dc0ff",
+          "width": 81,
+          "x": 444,
+          "y": 379,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12007,6 +12200,12 @@
               "name": "Dying",
               "type": "boolean",
               "value": false
+            },
+            {
+              "folded": true,
+              "name": "Companions",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -12064,11 +12263,11 @@
               "IsCalledManually": false
             },
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 94,
               "deceleration": 90,
               "maxSpeed": 90,
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "allowDiagonals": false,
               "rotateObject": false,
               "angleOffset": 0,
@@ -12386,6 +12585,146 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "KidCompanion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Follow",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "KidCompanion",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Dobby",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Dobby",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Dobby",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "GirlCompanion",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Follow2",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "GirlCompanion",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "GirlCompanion",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "height": 32,
           "name": "FloweryPlain",
@@ -12412,10 +12751,10 @@
               "type": "IsOnScreen::InOnScreen"
             },
             {
-              "acceleration": 92,
-              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 92,
+              "maxSpeed": 90,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12523,10 +12862,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 92,
-              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 92,
+              "maxSpeed": 90,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12634,10 +12973,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 92,
-              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 92,
+              "maxSpeed": 90,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12745,10 +13084,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 92,
-              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 92,
+              "maxSpeed": 90,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -12856,10 +13195,10 @@
           "effects": [],
           "behaviors": [
             {
-              "acceleration": 92,
-              "maxSpeed": 90,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 92,
+              "maxSpeed": 90,
               "rotateObject": false,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -14336,8 +14675,164 @@
           }
         },
         {
+          "assetStoreId": "767e5ec40fb6a67bbc052b750c44150e468e00b50242c3f90ce1be1d0baf3257",
+          "name": "YesBox2",
+          "tags": "",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "State": {
+              "adaptCollisionMaskAutomatically": false,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "Unchecked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "Unchecked3",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Checked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "Square Green Toggle_On.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
           "assetStoreId": "f11fadb1e240832514853591d6cc0b2acb655ff9421422b1b28e658ace1f0845",
           "name": "NoBox",
+          "tags": "",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "State": {
+              "adaptCollisionMaskAutomatically": false,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "Unchecked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "assets\\Square Blue Toggle_Off.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Checked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "assets\\Square Blue Toggle_On.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "assetStoreId": "f11fadb1e240832514853591d6cc0b2acb655ff9421422b1b28e658ace1f0845",
+          "name": "NoBox2",
           "tags": "",
           "type": "SpriteToggleSwitch::SpriteToggleSwitch",
           "variables": [],
@@ -14456,7 +14951,35 @@
             "opacity": 255,
             "scale": 3,
             "fontSize": 20,
-            "tint": "255;255;255",
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "GirlDialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "Whoa, you got skills mister!\nWho are you young lady? \nMy name is Anabeth. I'm just walking around. Can i join you guys?",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "0;0;0",
             "bitmapFontResourceName": "",
             "textureAtlasResourceName": "",
             "align": "left",
@@ -14830,132 +15353,6 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Dobby",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Dobby",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Dobby",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "GirlCompanion",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "GirlCompanion",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "GirlCompanion",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "KidCompanion",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "KidCompanion",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
           "name": "DeathField",
           "tags": "",
           "type": "Sprite",
@@ -15098,6 +15495,15 @@
               "parameters": [
                 "",
                 "\"EndOption\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"GirlDialogue\""
               ]
             },
             {
@@ -15659,6 +16065,17 @@
                     "60",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "Companions",
+                    "+",
+                    "1"
+                  ]
                 }
               ]
             },
@@ -15684,7 +16101,335 @@
                   "parameters": [
                     "KidCompanion",
                     "Protagonist",
-                    "40",
+                    "40*Protagonist.Variable(Companions)",
+                    "180"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Girl Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "SquareGreenToggle",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "GirlCompanion",
+                        "20",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GirlDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Interact_E"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GirlDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
+                  },
+                  "parameters": [
+                    "GirlDialogue",
+                    "BitmapText_AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "YesBox2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "NoBox2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "NoBox2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GirlDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Interact_E",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "YesBox2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GirlDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Interact_E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GirlCompanion",
+                    "Follow2",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac",
+                    "4",
+                    "",
+                    "60",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "Companions",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "GirlCompanion",
+                    "Follow2",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "GirlCompanion",
+                    "Protagonist",
+                    "40*Protagonist.Variable(Companions)",
                     "180"
                   ]
                 }
@@ -16900,6 +17645,22 @@
           "name": "EndOption",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "GirlDialogue",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -18852,7 +19613,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3553434558816984,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
