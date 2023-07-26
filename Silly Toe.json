@@ -1410,7 +1410,14 @@
   },
   "objects": [],
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Kills",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1541,8 +1548,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 104,
-          "y": 610,
+          "x": 453,
+          "y": 186,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -15768,6 +15775,16 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Kills",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PauseSoundCanal"
                   },
                   "parameters": [
@@ -18009,12 +18026,27 @@
           "depth": 0,
           "height": 30,
           "layer": "",
-          "name": "Interact_E",
+          "name": "LeftClick",
           "persistentUuid": "4d63468f-8ad9-4651-b2f0-cc147ea76038",
           "width": 357,
           "x": 881,
           "y": 646,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HitMarker",
+          "persistentUuid": "27d2abd8-0373-4063-b220-72a853e72ef4",
+          "width": 0,
+          "x": 456,
+          "y": -97,
+          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18033,7 +18065,7 @@
               "folded": true,
               "name": "Health",
               "type": "number",
-              "value": 10
+              "value": 5
             },
             {
               "folded": true,
@@ -18317,8 +18349,8 @@
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
-            "MaxValue": 10,
-            "InitialValue": 10
+            "MaxValue": 5,
+            "InitialValue": 5
           },
           "childrenContent": {
             "Background": {
@@ -18356,7 +18388,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "8 / 16",
+              "string": "",
               "font": "",
               "textAlignment": "center",
               "characterSize": 16,
@@ -18815,7 +18847,7 @@
           "assetStoreId": "",
           "bold": false,
           "italic": false,
-          "name": "Interact_E",
+          "name": "LeftClick",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -18824,6 +18856,28 @@
           "effects": [],
           "behaviors": [],
           "string": "Mouse Left Click [Attack]",
+          "font": "color basic.ttf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HitMarker",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Hit!",
           "font": "color basic.ttf",
           "textAlignment": "center",
           "characterSize": 32,
@@ -18997,6 +19051,38 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "HitMarker",
+                "=",
+                "TimeSnatcher.X()",
+                "=",
+                "TimeSnatcher.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "HitMarker",
+                "=",
+                "-100",
+                "=",
+                "-100"
+              ]
             }
           ]
         },
@@ -19024,7 +19110,7 @@
                 "TimeSnatcher",
                 "Health",
                 "-",
-                "2"
+                "1"
               ]
             },
             {
@@ -19066,7 +19152,7 @@
                 "TimeSnatcher",
                 "HitCumulative",
                 "+",
-                ".125"
+                ".16"
               ]
             }
           ]
