@@ -1377,6 +1377,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/19f6db08fc742c65d0d38945a104f647dc9fe0b1b4e0a84d726c7553e65855e0_Night in the Castle.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/DeathField.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Deathfield",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transform.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transform",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/SGForward.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SGEnding",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1405,7 +1432,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6142111531023425,
+        "zoomFactor": 0.4408462211125336,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1484,6 +1511,23 @@
               "name": "CollisionIntro"
             }
           ]
+        },
+        {
+          "name": "CheckBoxes",
+          "objects": [
+            {
+              "name": "YesBox"
+            },
+            {
+              "name": "YesBox2"
+            },
+            {
+              "name": "NoBox"
+            },
+            {
+              "name": "NoBox2"
+            }
+          ]
         }
       ],
       "variables": [],
@@ -1497,8 +1541,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 38,
-          "y": 447,
+          "x": 104,
+          "y": 610,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -11950,8 +11994,8 @@
           "name": "GirlCompanion",
           "persistentUuid": "88fa2765-88a4-4e74-b386-b20b803d5ffc",
           "width": 50,
-          "x": 374,
-          "y": 440,
+          "x": -267,
+          "y": -637,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -11980,8 +12024,8 @@
           "name": "KidCompanion",
           "persistentUuid": "795b25a6-8eee-4a06-9ce9-34ed16b51813",
           "width": 0,
-          "x": 185,
-          "y": 444,
+          "x": 309,
+          "y": 440,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -12151,13 +12195,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 98,
+          "height": 69,
           "layer": "GirlDialogue",
           "name": "NoBox2",
           "persistentUuid": "ae89e498-8696-41a1-9a3d-45fe7ddf4ec3",
-          "width": 77,
-          "x": 582,
-          "y": 375,
+          "width": 68,
+          "x": 720,
+          "y": 390,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -12167,13 +12211,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 32,
-          "height": 92,
+          "height": 69,
           "layer": "GirlDialogue",
           "name": "YesBox2",
           "persistentUuid": "6ce7238c-3b4a-43e8-bade-e041a12dc0ff",
-          "width": 81,
-          "x": 444,
-          "y": 379,
+          "width": 68,
+          "x": 498,
+          "y": 391,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -12597,6 +12641,12 @@
               "name": "Follow",
               "type": "boolean",
               "value": false
+            },
+            {
+              "folded": true,
+              "name": "FollowOrder",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -12688,6 +12738,12 @@
               "name": "Follow2",
               "type": "boolean",
               "value": false
+            },
+            {
+              "folded": true,
+              "name": "FollowOrder",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -15430,6 +15486,16 @@
             },
             {
               "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "CheckBoxes",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "ZoomCamera"
               },
               "parameters": [
@@ -15525,6 +15591,16 @@
                 "1",
                 "yes",
                 "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+              },
+              "parameters": [
+                "CheckBoxes",
+                "",
                 ""
               ]
             }
@@ -15787,7 +15863,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "DialogueKid",
+          "name": "Kid Dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -15891,6 +15967,26 @@
                 },
                 {
                   "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -15972,6 +16068,26 @@
                   },
                   "parameters": [
                     "Interact_E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox",
+                    "",
                     ""
                   ]
                 }
@@ -16076,6 +16192,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "KidCompanion",
+                    "FollowOrder",
+                    "=",
+                    "Protagonist.Variable(Companions)"
+                  ]
                 }
               ]
             },
@@ -16101,7 +16228,7 @@
                   "parameters": [
                     "KidCompanion",
                     "Protagonist",
-                    "40*Protagonist.Variable(Companions)",
+                    "40*KidCompanion.Variable(FollowOrder)",
                     "180"
                   ]
                 }
@@ -16219,6 +16346,26 @@
                 },
                 {
                   "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox2",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox2",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -16300,6 +16447,26 @@
                   },
                   "parameters": [
                     "Interact_E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox2",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox2",
+                    "",
                     ""
                   ]
                 }
@@ -16404,6 +16571,17 @@
                     "+",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "GirlCompanion",
+                    "FollowOrder",
+                    "=",
+                    "Protagonist.Variable(Companions)"
+                  ]
                 }
               ]
             },
@@ -16429,7 +16607,7 @@
                   "parameters": [
                     "GirlCompanion",
                     "Protagonist",
-                    "40*Protagonist.Variable(Companions)",
+                    "40*GirlCompanion.Variable(FollowOrder)",
                     "180"
                   ]
                 }
@@ -17660,7 +17838,7 @@
           "isLocked": false,
           "name": "GirlDialogue",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -17821,6 +17999,22 @@
           "x": 500,
           "y": 24,
           "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 30,
+          "layer": "",
+          "name": "Interact_E",
+          "persistentUuid": "4d63468f-8ad9-4651-b2f0-cc147ea76038",
+          "width": 357,
+          "x": 881,
+          "y": 646,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18616,6 +18810,28 @@
             "g": 0,
             "r": 252
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Interact_E",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mouse Left Click [Attack]",
+          "font": "color basic.ttf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -18808,7 +19024,7 @@
                 "TimeSnatcher",
                 "Health",
                 "-",
-                "10"
+                "2"
               ]
             },
             {
@@ -19628,8 +19844,223 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 526,
+          "layer": "",
+          "name": "ShadyGuy",
+          "persistentUuid": "4ec2471e-63bd-4ae0-a2b4-9e1d6147385c",
+          "width": 575,
+          "x": 400,
+          "y": 143,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 725,
+          "layer": "",
+          "name": "DeathField",
+          "persistentUuid": "99648b4e-3041-41cb-a75b-6c51af1deaf1",
+          "width": 1280,
+          "x": 1,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DeathField",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Deathfield",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ShadyGuy",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "SGEnding",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 4
+                          },
+                          {
+                            "x": 44,
+                            "y": 4
+                          },
+                          {
+                            "x": 44,
+                            "y": 56
+                          },
+                          {
+                            "x": 18,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Transform",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Transform",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18,
+                            "y": 4
+                          },
+                          {
+                            "x": 44,
+                            "y": 4
+                          },
+                          {
+                            "x": 44,
+                            "y": 56
+                          },
+                          {
+                            "x": 18,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "events": [],
       "layers": [
         {
