@@ -1439,7 +1439,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4408462211125336,
+        "zoomFactor": 0.5203582091313058,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1548,8 +1548,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 453,
-          "y": 186,
+          "x": 1305,
+          "y": 49,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -12159,8 +12159,8 @@
           "name": "Elixir",
           "persistentUuid": "c7fa3929-63a2-42f0-806b-62bd6a309ead",
           "width": 80,
-          "x": 799,
-          "y": 634,
+          "x": 1286,
+          "y": -58,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -12226,6 +12226,2106 @@
           "x": 498,
           "y": 391,
           "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f9a9e995-c8bb-4acb-aa92-70a3cab3546d",
+          "width": 0,
+          "x": 138,
+          "y": 1181,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "805aa524-df06-44e2-9033-b810d1695d27",
+          "width": 0,
+          "x": -11,
+          "y": 1201,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "07e468ee-216b-4a4b-8f55-6daece57de6b",
+          "width": 0,
+          "x": -138,
+          "y": 1272,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "1beac143-ff56-4193-abf8-7df43e1b0881",
+          "width": 0,
+          "x": 191,
+          "y": 1272,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a5346611-cccd-40fd-8e31-b1b6263f9f8e",
+          "width": 0,
+          "x": 826,
+          "y": 1264,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "7cd85bab-c4ef-42a8-90c2-e90c5d1497fe",
+          "width": 0,
+          "x": 928,
+          "y": 1247,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a384c110-382a-49ce-9744-600bbef89a84",
+          "width": 0,
+          "x": 1025,
+          "y": 1252,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "6c6eb09a-5b81-4ac5-a4a4-961354f71c7f",
+          "width": 0,
+          "x": 1188,
+          "y": 1296,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0f7372c0-666b-484b-99ce-d64d4b7ad8de",
+          "width": 0,
+          "x": 1186,
+          "y": 1174,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "01c611f6-c6f9-42b1-a086-c58d4099c316",
+          "width": 0,
+          "x": 1032,
+          "y": 1116,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a3c84b30-05f5-4ec7-ab09-269452cff6c3",
+          "width": 0,
+          "x": 1147,
+          "y": 968,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e3b1480d-c109-4a69-ae1a-a14ed160a10b",
+          "width": 0,
+          "x": 1178,
+          "y": 824,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "4218c05d-764d-452e-833d-09d45c76ccca",
+          "width": 0,
+          "x": 1188,
+          "y": 707,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "aacb0247-5d67-4ef3-9b71-9e2a58af07d6",
+          "width": 0,
+          "x": 1062,
+          "y": 707,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "8cc5bdb9-8bba-4731-88d0-82a12f849172",
+          "width": 0,
+          "x": 903,
+          "y": 756,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ad001974-e966-4a3d-bf57-003b6dda7e9e",
+          "width": 0,
+          "x": 830,
+          "y": 841,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0ac8e9df-9931-4107-9076-f5d8ed64cac5",
+          "width": 0,
+          "x": 704,
+          "y": 941,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "7b708b44-85fe-4964-8aeb-04f23788838a",
+          "width": 0,
+          "x": 2080,
+          "y": 1274,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0907f72f-2c63-4ab1-a419-1f6d4500ecc0",
+          "width": 0,
+          "x": 2165,
+          "y": 1274,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e5d00b7e-3f50-40f1-bcb1-4abba71d646a",
+          "width": 0,
+          "x": 2250,
+          "y": 1284,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "37ca8a69-7f80-496e-8bd1-79d053ce5eaf",
+          "width": 0,
+          "x": 2340,
+          "y": 1369,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "bf97850e-70b9-49f9-b47c-ed499a78b25c",
+          "width": 0,
+          "x": 2282,
+          "y": 1157,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "2feab47b-3d56-485e-bc3b-da367cb7082d",
+          "width": 0,
+          "x": 2153,
+          "y": 1138,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "7585e3ee-e9d9-45e7-9860-cb32977bb9c3",
+          "width": 0,
+          "x": 2525,
+          "y": 1145,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "4ab62ff8-064c-4b60-af35-65e41042f8bb",
+          "width": 0,
+          "x": 2807,
+          "y": 1218,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "18647607-b994-4638-be40-14406695bb2e",
+          "width": 0,
+          "x": 2888,
+          "y": 1114,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "7a304779-3c96-474c-a16f-6a3cc4e31479",
+          "width": 0,
+          "x": 2761,
+          "y": 1036,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ace58ad8-33a7-4fc7-b0e9-a0ebd446e9e0",
+          "width": 0,
+          "x": 2622,
+          "y": 1106,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "81323416-8dbe-41bc-9b5f-bc9ce1659ea2",
+          "width": 0,
+          "x": 2581,
+          "y": 1238,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0f42e531-d120-4410-87a7-cdbd0a1cd44e",
+          "width": 0,
+          "x": 2919,
+          "y": 554,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c8ee8b3c-92fd-4f00-978a-a46cbf575fb2",
+          "width": 0,
+          "x": 3058,
+          "y": 549,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f6ec1240-2533-4b12-88fb-565913af3c27",
+          "width": 0,
+          "x": 2917,
+          "y": 602,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "57a77760-62e2-4b84-ac97-4a3090e0b984",
+          "width": 0,
+          "x": 2785,
+          "y": 318,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "d26496f3-8102-43db-a09f-130c489890da",
+          "width": 0,
+          "x": 2999,
+          "y": 215,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "29dd22d3-ccc1-4380-b19b-4d67fea15785",
+          "width": 0,
+          "x": 3102,
+          "y": 313,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "644fd4b8-b71d-44c3-a042-a96c043add3d",
+          "width": 0,
+          "x": 2019,
+          "y": -47,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b92a443a-2e8a-4b87-936b-4bace579c128",
+          "width": 0,
+          "x": 1963,
+          "y": 96,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0a5b0a81-ea09-4826-9811-3a83ce12354e",
+          "width": 0,
+          "x": 2121,
+          "y": 322,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f429880f-8789-4ee8-8d21-1d7f24eed439",
+          "width": 0,
+          "x": 2253,
+          "y": 228,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "26cb9959-c98f-41a4-ad0d-2efcac6a2fcf",
+          "width": 0,
+          "x": 2389,
+          "y": 137,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e511a803-e0e9-4213-bca9-1dc810eb5510",
+          "width": 0,
+          "x": 2296,
+          "y": -121,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "7cf0d52d-f937-4221-a5fa-a930c7e2bb51",
+          "width": 0,
+          "x": 2180,
+          "y": -242,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "694c0c7b-d083-4623-88a2-3b8c33fa149f",
+          "width": 0,
+          "x": 1827,
+          "y": 142,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "5f52afec-3dbb-4f85-a3a5-f9d7be7ebb1e",
+          "width": 0,
+          "x": 2566,
+          "y": -569,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "6e676d26-de9e-499f-8197-c34d759effb5",
+          "width": 0,
+          "x": 2472,
+          "y": -729,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "148ae14b-acae-485f-8ba4-ae68c375bc59",
+          "width": 0,
+          "x": 2581,
+          "y": -454,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "5d9859c9-6893-46b3-b283-ccb1aa3a1c34",
+          "width": 0,
+          "x": 2875,
+          "y": -272,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "eed2cbf9-15bf-4132-9201-ac6226b84703",
+          "width": 0,
+          "x": 2902,
+          "y": -467,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "73255e8b-dc49-4743-b750-5d43b867e61f",
+          "width": 0,
+          "x": 2934,
+          "y": -603,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "9af720b1-89b8-4831-812e-bcf1baafb5bb",
+          "width": 0,
+          "x": 2883,
+          "y": -793,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "540bc0fe-43f2-45e4-a0fb-9ca4afba129e",
+          "width": 0,
+          "x": 2999,
+          "y": -1192,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a79a29c6-0ba9-4116-96ef-2d68c3a8ed42",
+          "width": 0,
+          "x": 3106,
+          "y": -1180,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "94c07a70-bc98-41f8-95b3-f3c6897f4df1",
+          "width": 0,
+          "x": 3106,
+          "y": -1048,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "bf3a465b-98ad-4095-82bb-3b5dc684757a",
+          "width": 0,
+          "x": 2917,
+          "y": -1082,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "8c300369-4162-48c6-9b9a-ad3571e7550b",
+          "width": 0,
+          "x": 3106,
+          "y": -1216,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e790ef2e-9f7c-439d-b748-9544933b2533",
+          "width": 0,
+          "x": 2756,
+          "y": -1146,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "45f34188-e1cf-47c8-bc13-ec6e98648a8f",
+          "width": 0,
+          "x": 1808,
+          "y": -1255,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "5f6d2305-3cc1-402c-9d6e-8a0061909163",
+          "width": 0,
+          "x": 1786,
+          "y": -1131,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a8b46110-9e38-4f9b-8154-efc29d48b4d1",
+          "width": 0,
+          "x": 1657,
+          "y": -975,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b7f00af6-715b-4111-852c-3b941b40d5bf",
+          "width": 0,
+          "x": 1518,
+          "y": -1080,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "545e9f41-551b-43f2-865a-25d123b1e43b",
+          "width": 0,
+          "x": 1350,
+          "y": -678,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c3e499b4-9f13-4855-8e83-8262d4bdd12e",
+          "width": 0,
+          "x": 1129,
+          "y": -591,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b43ffd9d-0904-4543-bac9-682ade5fbb69",
+          "width": 0,
+          "x": 1156,
+          "y": -452,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "d65db370-c20d-4e6f-ba66-d0f153b72067",
+          "width": 0,
+          "x": 1396,
+          "y": -474,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0b0d688f-8145-4a40-8d8d-e3cbe9a7574b",
+          "width": 0,
+          "x": 1530,
+          "y": -559,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "6512bafa-bce2-44e4-bfd9-332d23dd0536",
+          "width": 0,
+          "x": 1579,
+          "y": -700,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "7407e339-f934-4449-9c35-85e9c2f3ef98",
+          "width": 0,
+          "x": 910,
+          "y": -452,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "632f8791-1528-42ff-8e8e-c6b96a8a8c82",
+          "width": 0,
+          "x": 891,
+          "y": -535,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ca61f8bb-c17a-417a-bb7d-edb6c2610da4",
+          "width": 0,
+          "x": 881,
+          "y": -654,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c47e1680-9c29-4c01-a44b-4a0498fb147b",
+          "width": 0,
+          "x": 791,
+          "y": -676,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "92c3b078-979d-467f-a64c-059ba34582cd",
+          "width": 0,
+          "x": 694,
+          "y": -600,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f38a61a8-cc2b-4e87-abe4-ddded56d6bee",
+          "width": 0,
+          "x": 609,
+          "y": -1236,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "d9d01a95-200e-41e3-9ae0-3beed387adeb",
+          "width": 0,
+          "x": 504,
+          "y": -1121,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e4e4ff53-324f-45af-9dea-3f11e642eeb4",
+          "width": 0,
+          "x": 429,
+          "y": -1039,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a0d8146a-ae2c-4703-82cc-f98fbbf1105f",
+          "width": 0,
+          "x": 307,
+          "y": -1102,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "d64e69db-1933-4987-8533-88dddd46a650",
+          "width": 0,
+          "x": 151,
+          "y": -1255,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "fc51efe7-3a41-4e17-b2b5-8b523eac84a1",
+          "width": 0,
+          "x": 217,
+          "y": -1163,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "3178384e-9e2f-4bfd-8525-0b939e22b897",
+          "width": 0,
+          "x": 704,
+          "y": -1226,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "9d242b5a-d6fe-4dc8-b574-3df12900886b",
+          "width": 0,
+          "x": 594,
+          "y": -1146,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a27b6524-5702-4435-9863-2573747ae473",
+          "width": 0,
+          "x": -21,
+          "y": 147,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c0d53de0-2df1-4d8f-aa74-a1f85fd70e28",
+          "width": 0,
+          "x": -153,
+          "y": 125,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "0462c01b-feb5-430d-839f-b734bc29bfbf",
+          "width": 0,
+          "x": -92,
+          "y": 59,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b23058e8-4b1d-465e-a529-99e05c552af0",
+          "width": 0,
+          "x": -119,
+          "y": 251,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "aeffe13f-65f7-433b-bea5-585ce650501f",
+          "width": 0,
+          "x": -4,
+          "y": 249,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "6423240b-5ce0-4a51-92f8-2355a9bf9503",
+          "width": 0,
+          "x": 477,
+          "y": -909,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f83dc274-b113-4c1f-8702-c0260ab7823f",
+          "width": 0,
+          "x": 922,
+          "y": -1210,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "4eb0216a-885e-4159-ac2a-c17f41b2fcbb",
+          "width": 0,
+          "x": 1161,
+          "y": -1184,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "89840084-7c6b-4a77-ad7b-48de62d1b4a4",
+          "width": 0,
+          "x": 1766,
+          "y": -921,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "52dc7125-1f77-4372-8306-77f8b82981c9",
+          "width": 0,
+          "x": 2039,
+          "y": -1228,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ecb2488e-b384-49d2-8cc6-e8d29959dba9",
+          "width": 0,
+          "x": 2874,
+          "y": -996,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "4b73af94-b56c-4e9b-a3a6-da8aefb0327f",
+          "width": 0,
+          "x": 2988,
+          "y": -875,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "1b01830f-b193-46ad-8a72-b1c2f4fe7060",
+          "width": 0,
+          "x": 2431,
+          "y": -629,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "de0db782-9b75-4821-baf0-576eed8b3fa5",
+          "width": 0,
+          "x": 2353,
+          "y": -468,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "15e5a05b-abe4-4865-ac64-7cf8da3315dc",
+          "width": 0,
+          "x": 2480,
+          "y": -480,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "3eb9f8f1-dda5-4199-a4a9-ca234f36bf08",
+          "width": 0,
+          "x": 1253,
+          "y": -417,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "507bd810-4113-461e-b5cb-81d0ff78520d",
+          "width": 0,
+          "x": 1725,
+          "y": -670,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b5f77ae6-7c73-4e5f-b127-00cd29a17bbb",
+          "width": 0,
+          "x": 1596,
+          "y": -556,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "df917f2a-4067-42d3-aac6-2d7d21f1b396",
+          "width": 0,
+          "x": 561,
+          "y": -631,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f261edbc-2b82-486b-ae06-81c7853c0ebe",
+          "width": 0,
+          "x": 440,
+          "y": -765,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "fadb625a-b4ef-4f74-913c-cdbf49affc0a",
+          "width": 0,
+          "x": 301,
+          "y": -699,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "2cf5edd4-a60f-47cf-9470-448759b02343",
+          "width": 0,
+          "x": 235,
+          "y": -585,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "adfe0844-a8da-4554-9cc0-b89df804e968",
+          "width": 0,
+          "x": 87,
+          "y": -534,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "de68cc66-2a70-47f0-9866-7431dd8070d8",
+          "width": 0,
+          "x": -49,
+          "y": -580,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a6e8cf57-582f-4c70-89c9-5c150b02c0a6",
+          "width": 0,
+          "x": 471,
+          "y": -575,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "83c1736e-8cc5-4587-9841-6bb96daa149d",
+          "width": 0,
+          "x": 571,
+          "y": -733,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "66cb194e-bfe5-4809-a6c3-1249f43c2a42",
+          "width": 0,
+          "x": -117,
+          "y": -682,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "bee202ec-5c37-49d3-9e64-0a4eb9b96332",
+          "width": 0,
+          "x": -215,
+          "y": 284,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c5e050bd-be9d-4364-8a48-041fb05e9817",
+          "width": 0,
+          "x": -188,
+          "y": 455,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f48c4e24-9072-4bb5-8385-97ff7ad77002",
+          "width": 0,
+          "x": -336,
+          "y": 265,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "15a3146b-1eb8-4e16-95a1-2f860457cf10",
+          "width": 0,
+          "x": 209,
+          "y": 228,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e500a300-34ea-4b6a-a8ba-7f58c79f2ab8",
+          "width": 0,
+          "x": 240,
+          "y": 131,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e55ff303-591e-46d4-b534-8489785b7544",
+          "width": 0,
+          "x": 272,
+          "y": 24,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c9300e36-bd0f-43bb-bb43-3ec30bedaa06",
+          "width": 0,
+          "x": 9,
+          "y": -18,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ec5137b4-6e15-428a-8808-5dae6e2d2b18",
+          "width": 0,
+          "x": -195,
+          "y": 26,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e789d194-185b-4860-84b5-a9d23e5f7e0f",
+          "width": 0,
+          "x": -424,
+          "y": -3,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "308a0150-2cb6-4d81-99b2-88436f7fa9da",
+          "width": 0,
+          "x": -166,
+          "y": 1156,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "04e6d934-d6a6-47e3-8a32-af609481ac2d",
+          "width": 0,
+          "x": 67,
+          "y": 1156,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "6e7c41bd-b2a5-439d-af6f-6f49ee07c8e8",
+          "width": 0,
+          "x": 340,
+          "y": 1207,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "c46c4751-bafc-4dba-8d82-48df09a65b05",
+          "width": 0,
+          "x": 410,
+          "y": 1024,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "d3fd68e2-53bf-48d8-aa5e-fadaa6736046",
+          "width": 0,
+          "x": 240,
+          "y": 893,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "e2a70874-7b70-4a3d-879e-3b2213981079",
+          "width": 0,
+          "x": 43,
+          "y": 1002,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "40964d64-e3fb-4f02-88d7-a009a01b40c4",
+          "width": 0,
+          "x": 374,
+          "y": 1136,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f8218064-86ec-484b-bfbf-0a2d2b61c677",
+          "width": 0,
+          "x": 834,
+          "y": 1194,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "2dc8a436-1b87-461d-8ff4-92f01fba9ea6",
+          "width": 0,
+          "x": 510,
+          "y": 1019,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ab32777f-00b9-4a73-b4d3-7202225640e4",
+          "width": 0,
+          "x": 573,
+          "y": 1272,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "54468af7-f032-48e0-870e-fa8535c1e566",
+          "width": 0,
+          "x": 851,
+          "y": 1090,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b99f410b-cab9-4d70-ae6c-5a866665960a",
+          "width": 0,
+          "x": 1281,
+          "y": 1073,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "5bd7d2a4-282f-4e99-a2cf-db4b7a8415de",
+          "width": 0,
+          "x": 1374,
+          "y": 1163,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "d1913c29-583c-4571-bfb4-ca9a9e70bbd0",
+          "width": 0,
+          "x": 2380,
+          "y": 1143,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "8f37ed1e-d838-44a6-b5ef-ed86f7133b80",
+          "width": 0,
+          "x": 2324,
+          "y": 1090,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "4df88bf4-f5b8-4fb5-97ce-04eb76531bfb",
+          "width": 0,
+          "x": 2095,
+          "y": 1041,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "4bfe08b7-804b-4455-9cee-630d384c82ed",
+          "width": 0,
+          "x": 1900,
+          "y": 1287,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "ec05137b-0558-4cf9-b387-ea02aa0a3257",
+          "width": 0,
+          "x": 1995,
+          "y": 1095,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "083e262e-e53f-4412-a290-9d1bbe3c60e1",
+          "width": 0,
+          "x": 2533,
+          "y": 1292,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "b07aaa6b-5e43-4dd1-aa30-121e71627a98",
+          "width": 0,
+          "x": 2822,
+          "y": 1316,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "93665838-c478-4068-add0-cf1b7d475f64",
+          "width": 0,
+          "x": 3100,
+          "y": 1114,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "f920f803-8898-4223-b687-9ab2036d0db0",
+          "width": 0,
+          "x": 3122,
+          "y": 898,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "6a501b5d-4a31-4fcd-9356-dbf3205f1587",
+          "width": 0,
+          "x": 3107,
+          "y": 591,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "a669fc7d-6574-446c-8ca9-12a691827048",
+          "width": 0,
+          "x": 2637,
+          "y": 535,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Hidden",
+          "name": "TimeSnatcherFakeOG",
+          "persistentUuid": "1b71a981-13a9-45e4-b2fb-30dad84c7d45",
+          "width": 0,
+          "x": 2509,
+          "y": 637,
+          "zOrder": 70,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12917,6 +15017,121 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
+          "name": "TimeSnatcherFakeOG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "acceleration": 120,
+              "maxSpeed": 120,
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "rotateObject": false,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "smoothingMaxCellGap": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "TSIdle5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "TimeSnatcher2",
           "tags": "",
           "type": "Sprite",
@@ -13489,6 +15704,192 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
           "name": "Grave2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Grave 2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grave 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
+          "name": "Grave3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Grave 2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grave 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
+          "name": "Grave4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Grave 2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grave 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
+          "name": "Grave5",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -15581,6 +17982,15 @@
             },
             {
               "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Hidden\""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -15854,7 +18264,7 @@
                     "Protagonist",
                     "PotionLevel",
                     "+",
-                    "2"
+                    "8"
                   ]
                 },
                 {
@@ -17488,6 +19898,26 @@
                 },
                 {
                   "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Montre"
                   },
                   "parameters": [
@@ -17689,6 +20119,216 @@
               "actions": [
                 {
                   "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"EndOption\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Hidden\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "TimeSnatcherFakeOG",
+                    "Pathfinding",
+                    "Protagonist.X()",
+                    "Protagonist.X()",
+                    "Protagonist.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "TimeSnatcherFakeOG",
+                    "Protagonist",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "TimeSnatcherFakeOG",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Kills",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Kills",
+                        ">=",
+                        "30"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "KidCompanion",
+                        "Follow",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "KidCompanion",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Grave3",
+                    "KidCompanion.X()",
+                    "KidCompanion.Y()",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Kills",
+                    ">=",
+                    "40"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Grave4",
+                    "GirlCompanion.X()",
+                    "GirlCompanion.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "GirlCompanion",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Kills",
+                    ">=",
+                    "45"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "Kills",
+                    ">=",
+                    "50"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
@@ -17701,6 +20341,11 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -17856,6 +20501,22 @@
           "name": "GirlDialogue",
           "renderingType": "",
           "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Hidden",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -19935,13 +22596,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 526,
+          "height": 518,
           "layer": "",
           "name": "ShadyGuy",
           "persistentUuid": "4ec2471e-63bd-4ae0-a2b4-9e1d6147385c",
-          "width": 575,
-          "x": 400,
-          "y": 143,
+          "width": 535,
+          "x": 365,
+          "y": 124,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20145,6 +22806,18 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [],
