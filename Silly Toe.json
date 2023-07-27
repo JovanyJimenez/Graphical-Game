@@ -1445,7 +1445,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2680657065900448,
+        "zoomFactor": 0.28644904177831454,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1560,8 +1560,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 928,
-          "y": 692,
+          "x": 105,
+          "y": 603,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1587,12 +1587,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 2163,
+          "height": 2222,
           "layer": "",
           "name": "FloweryPlain",
           "persistentUuid": "3146b76a-06de-4d98-a7fe-e8cb1f765688",
-          "width": 4371,
-          "x": -702,
+          "width": 4303,
+          "x": -818,
           "y": -811,
           "zOrder": 0,
           "numberProperties": [],
@@ -1673,21 +1673,6 @@
           "x": 2710,
           "y": -608,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Elixir",
-          "persistentUuid": "7cd6b5c8-ff02-4e14-8a54-6d773a517e24",
-          "width": 0,
-          "x": -302,
-          "y": -137,
-          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1791,13 +1776,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 287,
+          "height": 376,
           "layer": "Collision",
           "name": "EnemyDetectOG",
           "persistentUuid": "c9a5c084-4c97-43c6-ae2f-f74e5f9d13a6",
-          "width": 353,
-          "x": 530,
-          "y": 86,
+          "width": 452,
+          "x": 469,
+          "y": -3,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -11776,12 +11761,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 386,
+          "height": 518,
           "layer": "Collision",
           "name": "EnemyDetect2",
           "persistentUuid": "510d0791-985a-45c9-90d8-cda28d013032",
-          "width": 521,
-          "x": 1409,
+          "width": 715,
+          "x": 1215,
           "y": -424,
           "zOrder": 49,
           "numberProperties": [],
@@ -11822,14 +11807,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 300,
+          "height": 400,
           "layer": "Collision",
-          "locked": true,
           "name": "EnemyDetect3",
           "persistentUuid": "cfa0c56c-27e8-4601-8f53-0e3286fc5878",
-          "width": 554,
+          "width": 639,
           "x": -748,
-          "y": 818,
+          "y": 754,
           "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
@@ -11899,7 +11883,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 361,
+          "height": 477,
           "layer": "Collision",
           "name": "EnemyDetect4",
           "persistentUuid": "2b312a4a-7f97-4f84-9850-8b8bb7e4741f",
@@ -11915,13 +11899,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 279,
+          "height": 352,
           "layer": "Collision",
           "name": "EnemyDetect5",
           "persistentUuid": "7b5b7df3-0433-473a-9e03-15620357b1ab",
-          "width": 483,
-          "x": 960,
-          "y": -1062,
+          "width": 604,
+          "x": 916,
+          "y": -1135,
           "zOrder": 58,
           "numberProperties": [],
           "stringProperties": [],
@@ -11993,26 +11977,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "Dobby",
-          "persistentUuid": "e7fe5ca4-602c-47f0-a906-d6dc2eabf89b",
-          "width": 0,
-          "x": 2704,
-          "y": 81,
-          "zOrder": 63,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "KidCompanion",
           "persistentUuid": "795b25a6-8eee-4a06-9ce9-34ed16b51813",
           "width": 0,
-          "x": 985,
-          "y": 705,
+          "x": 310,
+          "y": 416,
           "zOrder": 64,
           "numberProperties": [],
           "stringProperties": [],
@@ -14344,22 +14313,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 83,
-          "layer": "PotionCollision",
-          "name": "EnemyDetectFakeOG",
-          "persistentUuid": "86663582-5b63-4487-b0cd-6f4fa4a59aa3",
-          "width": 105,
-          "x": 810,
-          "y": 634,
-          "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 32,
           "height": 96,
           "layer": "EndOption",
@@ -14385,6 +14338,22 @@
           "x": 679,
           "y": 353,
           "zOrder": 75,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 59,
+          "layer": "",
+          "name": "Elixir",
+          "persistentUuid": "257342b4-303b-465b-bfda-8926cf0acf5e",
+          "width": 70,
+          "x": -312,
+          "y": -159,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18599,7 +18568,7 @@
                     "Protagonist",
                     "PotionLevel",
                     "+",
-                    "8"
+                    "2"
                   ]
                 },
                 {
@@ -20507,8 +20476,8 @@
                   "parameters": [
                     "",
                     "YoungProtagonist",
-                    "Protagonist.X()+32",
-                    "Protagonist.Y()+32",
+                    "Protagonist.X()",
+                    "Protagonist.Y()",
                     ""
                   ]
                 },
@@ -22962,7 +22931,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558816984,
+        "zoomFactor": 0.6244537826600003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22972,13 +22941,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 518,
+          "height": 450,
           "layer": "",
           "name": "ShadyGuy",
           "persistentUuid": "4ec2471e-63bd-4ae0-a2b4-9e1d6147385c",
-          "width": 535,
-          "x": 365,
-          "y": 124,
+          "width": 445,
+          "x": 728,
+          "y": 300,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -22996,6 +22965,134 @@
           "x": 1,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 325,
+          "layer": "",
+          "name": "YoungProtagonist",
+          "persistentUuid": "c51fe0fb-69a2-46fe-8272-b92332846b47",
+          "width": 321,
+          "x": 253,
+          "y": 370,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "d5709339-c049-41d6-83e0-638f1c962717",
+          "width": 86,
+          "x": 16,
+          "y": 569,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "230755ff-1635-4323-a536-905b124984f0",
+          "width": 86,
+          "x": 1184,
+          "y": 432,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "cb4a2ddb-6a83-427d-b937-b513f07d45a3",
+          "width": 86,
+          "x": 1050,
+          "y": 579,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "59a9db56-d303-44f4-8d32-797610d635fc",
+          "width": 86,
+          "x": 710,
+          "y": 473,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "5cfb4d69-f7e9-4f8f-a441-1342b6e51865",
+          "width": 86,
+          "x": 550,
+          "y": 584,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 131,
+          "layer": "",
+          "name": "Grave2",
+          "persistentUuid": "8693bdce-6f69-4e88-a691-dd301669c0d1",
+          "width": 86,
+          "x": 217,
+          "y": 459,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 480,
+          "layer": "Text",
+          "name": "EndingText",
+          "persistentUuid": "6dd77cce-71a8-459f-990a-94717a604132",
+          "width": 1240,
+          "x": 30,
+          "y": 19,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23184,19 +23281,273 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "YoungProtagonist",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "YPLeft",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.3,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "YPLeft1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "YPLeft4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "YPLeft3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "YPLeft2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "YPRight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "YPDown",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "YPUp",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "ac3f42b8b47cfc10af532440e15592ca267448061c4bff41a1e72529f22e3aa8",
+          "name": "Grave2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Grave 2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Grave 2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 0
+                          },
+                          {
+                            "x": 14,
+                            "y": 26
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "EndingText",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "Look at you. I almost didn't recognize you. Why so surprised? Did you really think you could cheat death without seeing me? We will be seeing each other a lot more for the rest of your long, eternal life. Muahahahaha!",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
         }
       ],
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "19f6db08fc742c65d0d38945a104f647dc9fe0b1b4e0a84d726c7553e65855e0_Night in the Castle.aac",
+                "",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
+              },
+              "parameters": [
+                "EndingText",
+                "BitmapText_AutoTyping",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -23224,9 +23575,30 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Text",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "BitmapText_AutoTyping",
+          "type": "AutoTyping::BitmapText_AutoTyping"
+        }
+      ]
     }
   ],
   "externalEvents": [],
