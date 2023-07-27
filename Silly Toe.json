@@ -1391,7 +1391,7 @@
         "alwaysLoaded": false,
         "file": "assets/Transform.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Transform.png\",\"extension\":\".png\"}",
         "name": "Transform",
         "smoothed": false,
         "userAdded": true
@@ -1402,6 +1402,15 @@
         "kind": "image",
         "metadata": "",
         "name": "SGEnding",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Death.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death",
         "smoothed": false,
         "userAdded": false
       }
@@ -1445,7 +1454,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28644904177831454,
+        "zoomFactor": 0.3613006782954995,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1545,6 +1554,12 @@
             },
             {
               "name": "YesBox3"
+            },
+            {
+              "name": "YesBox4"
+            },
+            {
+              "name": "NoBox4"
             }
           ]
         }
@@ -1560,8 +1575,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 105,
-          "y": 603,
+          "x": 102,
+          "y": 616,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1592,8 +1607,8 @@
           "name": "FloweryPlain",
           "persistentUuid": "3146b76a-06de-4d98-a7fe-e8cb1f765688",
           "width": 4303,
-          "x": -818,
-          "y": -811,
+          "x": -836,
+          "y": -802,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2068,8 +2083,8 @@
           "name": "YesBox",
           "persistentUuid": "167e9e93-5036-4ed2-b4f3-f8fd4bb71385",
           "width": 68,
-          "x": 498,
-          "y": 428,
+          "x": 452,
+          "y": 419,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -2084,8 +2099,8 @@
           "name": "NoBox",
           "persistentUuid": "2f3f8f87-4dd6-47fa-90a4-2cc173883a93",
           "width": 68,
-          "x": 717,
-          "y": 428,
+          "x": 660,
+          "y": 420,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -11949,8 +11964,8 @@
           "name": "TimeSnatcher2",
           "persistentUuid": "abe2c1d7-8938-4bba-99c8-e43db2a77234",
           "width": 0,
-          "x": 1558,
-          "y": 926,
+          "x": 1354,
+          "y": -48,
           "zOrder": 61,
           "numberProperties": [],
           "stringProperties": [],
@@ -11965,8 +11980,8 @@
           "name": "GirlCompanion",
           "persistentUuid": "88fa2765-88a4-4e74-b386-b20b803d5ffc",
           "width": 50,
-          "x": -267,
-          "y": -637,
+          "x": -300,
+          "y": -609,
           "zOrder": 62,
           "numberProperties": [],
           "stringProperties": [],
@@ -12135,13 +12150,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 324,
+          "height": 493,
           "layer": "GirlDialogue",
           "name": "GirlDialogue",
           "persistentUuid": "6f64b934-4980-4581-9f97-9826dfd583d1",
-          "width": 712,
-          "x": 284,
-          "y": 397,
+          "width": 843,
+          "x": 152,
+          "y": 18,
           "zOrder": 65,
           "numberProperties": [],
           "stringProperties": [],
@@ -12156,8 +12171,8 @@
           "name": "NoBox2",
           "persistentUuid": "ae89e498-8696-41a1-9a3d-45fe7ddf4ec3",
           "width": 68,
-          "x": 706,
-          "y": 637,
+          "x": 546,
+          "y": 305,
           "zOrder": 66,
           "numberProperties": [],
           "stringProperties": [],
@@ -12172,8 +12187,8 @@
           "name": "YesBox2",
           "persistentUuid": "6ce7238c-3b4a-43e8-bade-e041a12dc0ff",
           "width": 68,
-          "x": 450,
-          "y": 637,
+          "x": 331,
+          "y": 305,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -14357,6 +14372,69 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Dobby",
+          "persistentUuid": "9e4432e9-7019-41aa-8599-d49cbbc31438",
+          "width": 0,
+          "x": -166,
+          "y": 1227,
+          "zOrder": 76,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 451,
+          "layer": "DobbyDialogue",
+          "name": "DobbyDialogue",
+          "persistentUuid": "ae147c43-9ec8-4779-bd03-91f31f2f3669",
+          "width": 816,
+          "x": 156,
+          "y": 14,
+          "zOrder": 77,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 69,
+          "layer": "DobbyDialogue",
+          "name": "YesBox4",
+          "persistentUuid": "a54311c4-010d-4029-a3f3-a0967469d925",
+          "width": 68,
+          "x": 356,
+          "y": 368,
+          "zOrder": 78,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 69,
+          "layer": "DobbyDialogue",
+          "name": "NoBox4",
+          "persistentUuid": "474dd6a4-6e11-41df-bc93-6c64cdb2de3b",
+          "width": 68,
+          "x": 580,
+          "y": 371,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15020,7 +15098,20 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Follow",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "FollowOrder",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -17434,6 +17525,84 @@
           }
         },
         {
+          "assetStoreId": "767e5ec40fb6a67bbc052b750c44150e468e00b50242c3f90ce1be1d0baf3257",
+          "name": "YesBox4",
+          "tags": "",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "State": {
+              "adaptCollisionMaskAutomatically": false,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "Unchecked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "Unchecked3",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Checked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "Square Green Toggle_On.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
           "assetStoreId": "f11fadb1e240832514853591d6cc0b2acb655ff9421422b1b28e658ace1f0845",
           "name": "NoBox",
           "tags": "",
@@ -17668,6 +17837,84 @@
           }
         },
         {
+          "assetStoreId": "f11fadb1e240832514853591d6cc0b2acb655ff9421422b1b28e658ace1f0845",
+          "name": "NoBox4",
+          "tags": "",
+          "type": "SpriteToggleSwitch::SpriteToggleSwitch",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {},
+          "childrenContent": {
+            "State": {
+              "adaptCollisionMaskAutomatically": false,
+              "updateIfNotVisible": false,
+              "animations": [
+                {
+                  "name": "Unchecked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "assets\\Square Blue Toggle_Off.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Checked",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": [
+                        {
+                          "hasCustomCollisionMask": false,
+                          "image": "assets\\Square Blue Toggle_On.png",
+                          "points": [],
+                          "originPoint": {
+                            "name": "origine",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "centerPoint": {
+                            "automatic": true,
+                            "name": "centre",
+                            "x": 0,
+                            "y": 0
+                          },
+                          "customCollisionMask": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -17719,6 +17966,34 @@
         },
         {
           "assetStoreId": "",
+          "name": "DobbyDialogue",
+          "tags": "",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "BitmapText_AutoTyping",
+              "type": "AutoTyping::BitmapText_AutoTyping",
+              "Interval": 0.05,
+              "CharacterJustAdded": false,
+              "CurrentCharacter": ""
+            }
+          ],
+          "content": {
+            "text": "- HEHEHHEHEHEEE\n\n- Hello?\n\n- smthsmthsmth dialogue\n\n",
+            "opacity": 255,
+            "scale": 2.7,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "",
+            "textureAtlasResourceName": "",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "GirlDialogue",
           "tags": "",
           "type": "BitmapText::BitmapTextObject",
@@ -17734,7 +18009,7 @@
             }
           ],
           "content": {
-            "text": "-Whoa, you got skills mister!\n\n-Who are you young lady? \n\n-My name is Anabeth. I'm just walking around. Can i join you guys?",
+            "text": "- Whoa, you got skills mister!\n\n- Who are you young lady? \n\n- My name is Anabeth. I'm just walking around. Can I join you?",
             "opacity": 255,
             "scale": 2,
             "fontSize": 20,
@@ -17766,7 +18041,7 @@
             "opacity": 255,
             "scale": 3,
             "fontSize": 20,
-            "tint": "255;255;255",
+            "tint": "0;0;0",
             "bitmapFontResourceName": "",
             "textureAtlasResourceName": "",
             "align": "left",
@@ -17790,11 +18065,11 @@
             }
           ],
           "content": {
-            "text": "We did it! We finally did it. Thank you for helping this old man on his journey.\n\nWe wouldn't have it any other way. What do the potions do?\n\nGrant me immortailty. \n\nWhat? Is this really what you want?\n\nI've lived a life without accomplishments. I'm not ready to die.....",
+            "text": "- We did it! We finally did it. Thank you for helping this old man on his journey.\n\n- We wouldn't have it any other way. What do the potions do?\n\n- Grant me immortailty. \n\n- What? Is this really what you want?\n\n- I've lived a life without accomplishments. I'm not ready to die.....",
             "opacity": 255,
             "scale": 2.7,
             "fontSize": 20,
-            "tint": "255;255;255",
+            "tint": "0;0;0",
             "bitmapFontResourceName": "",
             "textureAtlasResourceName": "",
             "align": "left",
@@ -17822,7 +18097,7 @@
             "opacity": 255,
             "scale": 2.7,
             "fontSize": 20,
-            "tint": "255;255;255",
+            "tint": "0;0;0",
             "bitmapFontResourceName": "",
             "textureAtlasResourceName": "",
             "align": "center",
@@ -17850,7 +18125,7 @@
             "opacity": 255,
             "scale": 2.7,
             "fontSize": 20,
-            "tint": "255;255;255",
+            "tint": "0;0;0",
             "bitmapFontResourceName": "",
             "textureAtlasResourceName": "",
             "align": "center",
@@ -18290,7 +18565,7 @@
               },
               "parameters": [
                 "",
-                "\"PotionCollision\""
+                "\"DobbyDialogue\""
               ]
             },
             {
@@ -18934,6 +19209,17 @@
                     "=",
                     "Protagonist.Variable(Companions)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "+",
+                    "15"
+                  ]
                 }
               ]
             },
@@ -19002,7 +19288,7 @@
                       "parameters": [
                         "Protagonist",
                         "GirlCompanion",
-                        "50",
+                        "20",
                         ""
                       ]
                     }
@@ -19313,6 +19599,17 @@
                     "=",
                     "Protagonist.Variable(Companions)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "1.5",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -19339,6 +19636,385 @@
                     "GirlCompanion",
                     "Protagonist",
                     "40*GirlCompanion.Variable(FollowOrder)",
+                    "180"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Dobby Dialogue",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "SquareGreenToggle",
+                        "e"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "Protagonist",
+                        "Dobby",
+                        "20",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DobbyDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Interact_E"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DobbyDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::BitmapText_AutoTyping::StartAtBeginning"
+                  },
+                  "parameters": [
+                    "DobbyDialogue",
+                    "BitmapText_AutoTyping",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox4",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox4",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "YesBox4",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "NoBox4",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "NoBox4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DobbyDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Interact_E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "YesBox4",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SpriteToggleSwitch::SpriteToggleSwitch::Activate"
+                  },
+                  "parameters": [
+                    "NoBox4",
+                    "no",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "SpriteToggleSwitch::SpriteToggleSwitch::HasJustBeenChecked"
+                      },
+                      "parameters": [
+                        "YesBox4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+                      },
+                      "parameters": [
+                        "GreenDotBar",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"DobbyDialogue\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Interact_E",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dobby",
+                    "Follow",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "cf3d278e28f6f631da5883429db0f100b27b1e2ef94ad12cfedafbb1c5b61136_1up 9.aac",
+                    "4",
+                    "",
+                    "60",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "Companions",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Dobby",
+                    "FollowOrder",
+                    "=",
+                    "Protagonist.Variable(Companions)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dobby",
+                    "Follow",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "Dobby",
+                    "Protagonist",
+                    "40*Dobby.Variable(FollowOrder)",
                     "180"
                   ]
                 }
@@ -20386,6 +21062,11 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
@@ -20813,7 +21494,7 @@
           "isLocked": false,
           "name": "EndOption",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -20845,7 +21526,7 @@
           "isLocked": false,
           "name": "Hidden",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -20859,9 +21540,9 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "PotionCollision",
+          "name": "DobbyDialogue",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -22158,7 +22839,7 @@
                 "TimeSnatcher",
                 "HitCumulative",
                 "+",
-                ".16"
+                ".13"
               ]
             }
           ]
@@ -22931,7 +23612,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600003,
+        "zoomFactor": 0.4335774304702383,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -22946,8 +23627,8 @@
           "name": "ShadyGuy",
           "persistentUuid": "4ec2471e-63bd-4ae0-a2b4-9e1d6147385c",
           "width": 445,
-          "x": 728,
-          "y": 300,
+          "x": 768,
+          "y": 249,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -23225,6 +23906,7 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
@@ -23273,8 +23955,27 @@
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             }
@@ -23546,6 +24247,116 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::BitmapText_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "EndingText",
+                "BitmapText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AutoTyping::BitmapText_AutoTyping::Pause"
+              },
+              "parameters": [
+                "EndingText",
+                "BitmapText_AutoTyping",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "EndingText"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "ShadyGuy",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Animation"
+              },
+              "parameters": [
+                "ShadyGuy",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "ShadyGuy",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
