@@ -1454,7 +1454,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3613006782954995,
+        "zoomFactor": 0.2426789380724692,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1575,8 +1575,8 @@
           "name": "Protagonist",
           "persistentUuid": "4d026a18-10ee-49c1-b46a-69002d391755",
           "width": 57,
-          "x": 102,
-          "y": 616,
+          "x": 101,
+          "y": 608,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3587,8 +3587,8 @@
           "name": "Elixir",
           "persistentUuid": "5e5d6d56-25cb-448f-91c7-ac8d35c5636d",
           "width": 80,
-          "x": 1181,
-          "y": 1402,
+          "x": 1282,
+          "y": 1399,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -12059,8 +12059,8 @@
           "name": "Elixir",
           "persistentUuid": "7eeb2d24-47e2-4104-b4cd-105907bdeb20",
           "width": 80,
-          "x": -34,
-          "y": 1383,
+          "x": 347,
+          "y": 1393,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -14312,22 +14312,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 23,
-          "layer": "Collision",
-          "name": "CollisionDetect",
-          "persistentUuid": "2370a2ac-12be-4f95-b3b7-13aec2545c53",
-          "width": 1,
-          "x": -242,
-          "y": -617,
-          "zOrder": 72,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 32,
           "height": 96,
           "layer": "EndOption",
@@ -14381,8 +14365,8 @@
           "name": "Dobby",
           "persistentUuid": "9e4432e9-7019-41aa-8599-d49cbbc31438",
           "width": 0,
-          "x": -166,
-          "y": 1227,
+          "x": -102,
+          "y": 1284,
           "zOrder": 76,
           "numberProperties": [],
           "stringProperties": [],
@@ -14413,8 +14397,8 @@
           "name": "YesBox4",
           "persistentUuid": "a54311c4-010d-4029-a3f3-a0967469d925",
           "width": 68,
-          "x": 356,
-          "y": 368,
+          "x": 363,
+          "y": 426,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -14429,8 +14413,8 @@
           "name": "NoBox4",
           "persistentUuid": "474dd6a4-6e11-41df-bc93-6c64cdb2de3b",
           "width": 68,
-          "x": 580,
-          "y": 371,
+          "x": 582,
+          "y": 426,
           "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
@@ -17981,7 +17965,7 @@
             }
           ],
           "content": {
-            "text": "- HEHEHHEHEHEEE\n\n- Hello?\n\n- smthsmthsmth dialogue\n\n",
+            "text": "What are you doing here? These are my mountains. \n\nI am on a quest for magic potions. \n\nInteresting. Interesting. Let me join.",
             "opacity": 255,
             "scale": 2.7,
             "fontSize": 20,
@@ -19218,7 +19202,7 @@
                     "Protagonist",
                     "TopDownMovement",
                     "+",
-                    "15"
+                    "10"
                   ]
                 }
               ]
@@ -19988,6 +19972,17 @@
                     "FollowOrder",
                     "=",
                     "Protagonist.Variable(Companions)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::MaxSpeed"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "TopDownMovement",
+                    "+",
+                    "10"
                   ]
                 }
               ]
@@ -21132,6 +21127,17 @@
                 },
                 {
                   "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Protagonist",
+                    "PotionLevel",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PathfindingBehavior::SetDestination"
                   },
                   "parameters": [
@@ -21320,7 +21326,29 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Grave5",
+                    "Dobby.X()",
+                    "Dobby.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Dobby",
+                    ""
+                  ]
+                }
+              ]
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
